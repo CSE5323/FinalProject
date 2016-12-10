@@ -12,6 +12,21 @@
 		D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CC81DE51AFD00D2D13F /* Main.storyboard */; };
 		D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */; };
 		D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCD1DE51AFD00D2D13F /* LaunchScreen.storyboard */; };
+		D35DCD351DFC96FC00CE4982 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD341DFC96FC00CE4982 /* TapButton.swift */; };
+		D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD361DFC974300CE4982 /* FlatSurface.swift */; };
+		D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD381DFC976C00CE4982 /* SnapFingers.swift */; };
+		D35DCD4F1DFC9CCD00CE4982 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D35DCD3B1DFC9CCD00CE4982 /* .gitignore */; };
+		D35DCD501DFC9CCD00CE4982 /* AudioFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD3D1DFC9CCD00CE4982 /* AudioFileReader.m */; };
+		D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD3F1DFC9CCD00CE4982 /* AudioFileWriter.m */; };
+		D35DCD521DFC9CCD00CE4982 /* BufferedOverlapQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD411DFC9CCD00CE4982 /* BufferedOverlapQueue.m */; };
+		D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD431DFC9CCD00CE4982 /* CircularBuffer.m */; };
+		D35DCD541DFC9CCD00CE4982 /* CubicSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD451DFC9CCD00CE4982 /* CubicSpline.m */; };
+		D35DCD551DFC9CCD00CE4982 /* DataBufferBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD471DFC9CCD00CE4982 /* DataBufferBlock.m */; };
+		D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD491DFC9CCD00CE4982 /* FFTHelper.m */; };
+		D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4B1DFC9CCD00CE4982 /* Novocaine.m */; };
+		D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */; };
+		D35DCD591DFC9CCD00CE4982 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4E1DFC9CCD00CE4982 /* README.md */; };
+		D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B371AE1DEDDD280015CE05 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,31 @@
 		D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30D5CCE1DE51AFD00D2D13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30D5CD01DE51AFD00D2D13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35DCD341DFC96FC00CE4982 /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
+		D35DCD361DFC974300CE4982 /* FlatSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatSurface.swift; sourceTree = "<group>"; };
+		D35DCD381DFC976C00CE4982 /* SnapFingers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapFingers.swift; sourceTree = "<group>"; };
+		D35DCD3B1DFC9CCD00CE4982 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D35DCD3C1DFC9CCD00CE4982 /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
+		D35DCD3D1DFC9CCD00CE4982 /* AudioFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileReader.m; sourceTree = "<group>"; };
+		D35DCD3E1DFC9CCD00CE4982 /* AudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileWriter.h; sourceTree = "<group>"; };
+		D35DCD3F1DFC9CCD00CE4982 /* AudioFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileWriter.m; sourceTree = "<group>"; };
+		D35DCD401DFC9CCD00CE4982 /* BufferedOverlapQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferedOverlapQueue.h; sourceTree = "<group>"; };
+		D35DCD411DFC9CCD00CE4982 /* BufferedOverlapQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferedOverlapQueue.m; sourceTree = "<group>"; };
+		D35DCD421DFC9CCD00CE4982 /* CircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularBuffer.h; sourceTree = "<group>"; };
+		D35DCD431DFC9CCD00CE4982 /* CircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularBuffer.m; sourceTree = "<group>"; };
+		D35DCD441DFC9CCD00CE4982 /* CubicSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicSpline.h; sourceTree = "<group>"; };
+		D35DCD451DFC9CCD00CE4982 /* CubicSpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicSpline.m; sourceTree = "<group>"; };
+		D35DCD461DFC9CCD00CE4982 /* DataBufferBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBufferBlock.h; sourceTree = "<group>"; };
+		D35DCD471DFC9CCD00CE4982 /* DataBufferBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBufferBlock.m; sourceTree = "<group>"; };
+		D35DCD481DFC9CCD00CE4982 /* FFTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTHelper.h; sourceTree = "<group>"; };
+		D35DCD491DFC9CCD00CE4982 /* FFTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTHelper.m; sourceTree = "<group>"; };
+		D35DCD4A1DFC9CCD00CE4982 /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novocaine.h; sourceTree = "<group>"; };
+		D35DCD4B1DFC9CCD00CE4982 /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novocaine.m; sourceTree = "<group>"; };
+		D35DCD4C1DFC9CCD00CE4982 /* PeakFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakFinder.h; sourceTree = "<group>"; };
+		D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeakFinder.m; sourceTree = "<group>"; };
+		D35DCD4E1DFC9CCD00CE4982 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D35DCD5A1DFC9D2D00CE4982 /* AudioFileReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3B371AE1DEDDD280015CE05 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +78,7 @@
 		D30D5CB81DE51AFD00D2D13F = {
 			isa = PBXGroup;
 			children = (
+				D35DCD3A1DFC9CCD00CE4982 /* AudioDSPUtils */,
 				D30D5CC31DE51AFD00D2D13F /* FinalProject */,
 				D30D5CC21DE51AFD00D2D13F /* Products */,
 			);
@@ -57,11 +98,51 @@
 				D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */,
 				D30D5CC61DE51AFD00D2D13F /* ViewController.swift */,
 				D30D5CC81DE51AFD00D2D13F /* Main.storyboard */,
+				D35DCD331DFC909200CE4982 /* TaskFiles */,
 				D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */,
 				D30D5CCD1DE51AFD00D2D13F /* LaunchScreen.storyboard */,
 				D30D5CD01DE51AFD00D2D13F /* Info.plist */,
 			);
 			path = FinalProject;
+			sourceTree = "<group>";
+		};
+		D35DCD331DFC909200CE4982 /* TaskFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D3B371AE1DEDDD280015CE05 /* Task.swift */,
+				D35DCD341DFC96FC00CE4982 /* TapButton.swift */,
+				D35DCD361DFC974300CE4982 /* FlatSurface.swift */,
+				D35DCD381DFC976C00CE4982 /* SnapFingers.swift */,
+			);
+			name = TaskFiles;
+			sourceTree = "<group>";
+		};
+		D35DCD3A1DFC9CCD00CE4982 /* AudioDSPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D35DCD3B1DFC9CCD00CE4982 /* .gitignore */,
+				D35DCD3C1DFC9CCD00CE4982 /* AudioFileReader.h */,
+				D35DCD3D1DFC9CCD00CE4982 /* AudioFileReader.m */,
+				D35DCD3E1DFC9CCD00CE4982 /* AudioFileWriter.h */,
+				D35DCD3F1DFC9CCD00CE4982 /* AudioFileWriter.m */,
+				D35DCD401DFC9CCD00CE4982 /* BufferedOverlapQueue.h */,
+				D35DCD411DFC9CCD00CE4982 /* BufferedOverlapQueue.m */,
+				D35DCD421DFC9CCD00CE4982 /* CircularBuffer.h */,
+				D35DCD431DFC9CCD00CE4982 /* CircularBuffer.m */,
+				D35DCD441DFC9CCD00CE4982 /* CubicSpline.h */,
+				D35DCD451DFC9CCD00CE4982 /* CubicSpline.m */,
+				D35DCD461DFC9CCD00CE4982 /* DataBufferBlock.h */,
+				D35DCD471DFC9CCD00CE4982 /* DataBufferBlock.m */,
+				D35DCD481DFC9CCD00CE4982 /* FFTHelper.h */,
+				D35DCD491DFC9CCD00CE4982 /* FFTHelper.m */,
+				D35DCD4A1DFC9CCD00CE4982 /* Novocaine.h */,
+				D35DCD4B1DFC9CCD00CE4982 /* Novocaine.m */,
+				D35DCD4C1DFC9CCD00CE4982 /* PeakFinder.h */,
+				D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */,
+				D35DCD5A1DFC9D2D00CE4982 /* AudioFileReader-Bridging-Header.h */,
+				D35DCD4E1DFC9CCD00CE4982 /* README.md */,
+			);
+			path = AudioDSPUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35DCD4F1DFC9CCD00CE4982 /* .gitignore in Resources */,
 				D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */,
 				D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */,
 				D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */,
@@ -137,8 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
+				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
+				D35DCD541DFC9CCD00CE4982 /* CubicSpline.m in Sources */,
+				D35DCD501DFC9CCD00CE4982 /* AudioFileReader.m in Sources */,
+				D35DCD551DFC9CCD00CE4982 /* DataBufferBlock.m in Sources */,
+				D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */,
+				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
 				D30D5CC71DE51AFD00D2D13F /* ViewController.swift in Sources */,
+				D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */,
+				D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */,
+				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
+				D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */,
+				D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */,
 				D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */,
+				D35DCD521DFC9CCD00CE4982 /* BufferedOverlapQueue.m in Sources */,
+				D35DCD351DFC96FC00CE4982 /* TapButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +358,7 @@
 				DEVELOPMENT_TEAM = F69WJ27LN4;
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.FinalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +371,7 @@
 				DEVELOPMENT_TEAM = F69WJ27LN4;
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.FinalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +396,7 @@
 				D30D5CD51DE51AFD00D2D13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
