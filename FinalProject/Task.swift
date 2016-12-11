@@ -9,8 +9,15 @@
 import Foundation
 
 class Task {
+    internal var instructions: String = ""
+    
     func performTask() {
         
+    }
+    
+    // Access the instruction screen to update the UI
+    func instructionLabel() -> String {
+        return instructions;
     }
     
     func taskClear() {

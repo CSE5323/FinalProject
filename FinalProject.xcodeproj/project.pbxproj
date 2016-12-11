@@ -30,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileWriter-Bridging-Header.h"; sourceTree = "<group>"; };
+		D308F8851DFDEBC80059C3EA /* BufferedOverlapQueue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferedOverlapQueue-Bridging-Header.h"; sourceTree = "<group>"; };
+		D308F8861DFDEBF10059C3EA /* CircularBuffer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularBuffer-Bridging-Header.h"; sourceTree = "<group>"; };
+		D308F8871DFDEC140059C3EA /* CubicSpline-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CubicSpline-Bridging-Header.h"; sourceTree = "<group>"; };
+		D308F8881DFDEC2F0059C3EA /* DataBufferBlock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataBufferBlock-Bridging-Header.h"; sourceTree = "<group>"; };
+		D308F8891DFDEC5A0059C3EA /* FFTHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFTHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		D308F88A1DFDEC860059C3EA /* Novocaine-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Novocaine-Bridging-Header.h"; sourceTree = "<group>"; };
+		D308F88B1DFDECA80059C3EA /* PeakFinder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeakFinder-Bridging-Header.h"; sourceTree = "<group>"; };
 		D30D5CC11DE51AFD00D2D13F /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D30D5CC61DE51AFD00D2D13F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +148,14 @@
 				D35DCD4C1DFC9CCD00CE4982 /* PeakFinder.h */,
 				D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */,
 				D35DCD5A1DFC9D2D00CE4982 /* AudioFileReader-Bridging-Header.h */,
+				D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */,
+				D308F8851DFDEBC80059C3EA /* BufferedOverlapQueue-Bridging-Header.h */,
+				D308F8861DFDEBF10059C3EA /* CircularBuffer-Bridging-Header.h */,
+				D308F8871DFDEC140059C3EA /* CubicSpline-Bridging-Header.h */,
+				D308F8881DFDEC2F0059C3EA /* DataBufferBlock-Bridging-Header.h */,
+				D308F8891DFDEC5A0059C3EA /* FFTHelper-Bridging-Header.h */,
+				D308F88A1DFDEC860059C3EA /* Novocaine-Bridging-Header.h */,
+				D308F88B1DFDECA80059C3EA /* PeakFinder-Bridging-Header.h */,
 				D35DCD4E1DFC9CCD00CE4982 /* README.md */,
 			);
 			path = AudioDSPUtils;
