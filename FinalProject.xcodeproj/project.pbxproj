@@ -18,6 +18,7 @@
 		C27807551DFF2727002E58DE /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27807541DFF2727002E58DE /* opencv2.framework */; };
 		C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB691DFF574E00DF1ACD /* Shake.swift */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
+		D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
 		D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC61DE51AFD00D2D13F /* MenuController.swift */; };
 		D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CC81DE51AFD00D2D13F /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		C286FB691DFF574E00DF1ACD /* Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
 		C2ADBDFC1DFF2D0300A536CD /* ImageBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBridgingHeader.h; path = ImageDSPUtils/ImageBridgingHeader.h; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentShade.swift; sourceTree = "<group>"; };
 		D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileWriter-Bridging-Header.h"; sourceTree = "<group>"; };
 		D308F8851DFDEBC80059C3EA /* BufferedOverlapQueue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferedOverlapQueue-Bridging-Header.h"; sourceTree = "<group>"; };
 		D308F8861DFDEBF10059C3EA /* CircularBuffer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularBuffer-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			children = (
 				D35DCD341DFC96FC00CE4982 /* Button.swift */,
 				C21311031DFF09B70093C827 /* Swipe.swift */,
+				D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */,
 				D3B371AE1DEDDD280015CE05 /* Task.swift */,
 				C2E5354B1DFE467D003F749A /* Slide.swift */,
 				C286FB691DFF574E00DF1ACD /* Shake.swift */,
@@ -286,6 +289,7 @@
 				C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */,
 				C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
+				D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */,
 				C21311041DFF09B70093C827 /* Swipe.swift in Sources */,
 				C231985B1DFF47C700EC3EEE /* Walk.swift in Sources */,
 				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
