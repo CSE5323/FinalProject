@@ -320,5 +320,54 @@
             </objects>
             <point key="canvasLocation" x="2257" y="124"/>
         </scene>
+        <!--Flat Surface-->
+        <scene sceneID="H3Y-H5-MCu">
+            <objects>
+                <viewController storyboardIdentifier="FlatSurface" useStoryboardIdentifierAsRestorationIdentifier="YES" id="90x-K3-4Nr" customClass="FlatSurface" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0IL-Ub-P1P"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hbm-bM-cms"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4gf-Ux-Ax8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sat your phone down facing up" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scg-q7-Rze" userLabel="Flat Surface Label">
+                                <rect key="frame" x="69" y="254" width="238" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flat Surface" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zps-Jm-2Ec">
+                                <rect key="frame" x="142" y="20" width="92" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick it up when done" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOn-Gg-ZLd">
+                                <rect key="frame" x="108" y="323" width="159" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YOn-Gg-ZLd" firstAttribute="centerX" secondItem="4gf-Ux-Ax8" secondAttribute="centerX" id="9fH-7T-RYk"/>
+                            <constraint firstItem="scg-q7-Rze" firstAttribute="top" secondItem="0IL-Ub-P1P" secondAttribute="bottom" constant="234" id="Pcy-JF-2JW"/>
+                            <constraint firstItem="zps-Jm-2Ec" firstAttribute="centerX" secondItem="4gf-Ux-Ax8" secondAttribute="centerX" id="SAK-eq-vQv"/>
+                            <constraint firstItem="zps-Jm-2Ec" firstAttribute="top" secondItem="0IL-Ub-P1P" secondAttribute="bottom" id="bub-0M-3QM"/>
+                            <constraint firstItem="scg-q7-Rze" firstAttribute="centerX" secondItem="4gf-Ux-Ax8" secondAttribute="centerX" id="h0X-VV-vAL"/>
+                            <constraint firstItem="YOn-Gg-ZLd" firstAttribute="top" secondItem="0IL-Ub-P1P" secondAttribute="bottom" constant="303" id="sfm-xT-Ofr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flatSurfaceLabel" destination="scg-q7-Rze" id="l6z-hB-JKE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fvd-tw-jtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2937" y="124"/>
+        </scene>
     </scenes>
 </document>

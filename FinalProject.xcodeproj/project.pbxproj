@@ -10,6 +10,7 @@
 		C21311041DFF09B70093C827 /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21311031DFF09B70093C827 /* Swipe.swift */; };
 		C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */; };
 		C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */; };
+		C278074B1DFF24A7002E58DE /* HandOverCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = C278074A1DFF24A7002E58DE /* HandOverCamera.swift */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
 		D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC61DE51AFD00D2D13F /* MenuController.swift */; };
@@ -37,6 +38,7 @@
 		C21311031DFF09B70093C827 /* Swipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
 		C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRunComplete.swift; sourceTree = "<group>"; };
+		C278074A1DFF24A7002E58DE /* HandOverCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandOverCamera.swift; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileWriter-Bridging-Header.h"; sourceTree = "<group>"; };
 		D308F8851DFDEBC80059C3EA /* BufferedOverlapQueue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferedOverlapQueue-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				C2E5354B1DFE467D003F749A /* Slide.swift */,
 				D35DCD361DFC974300CE4982 /* FlatSurface.swift */,
 				D35DCD381DFC976C00CE4982 /* SnapFingers.swift */,
+				C278074A1DFF24A7002E58DE /* HandOverCamera.swift */,
 			);
 			name = Tasks;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
 				D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */,
 				C2E5354C1DFE467D003F749A /* Slide.swift in Sources */,
+				C278074B1DFF24A7002E58DE /* HandOverCamera.swift in Sources */,
 				D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */,
 				D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */,
 				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
