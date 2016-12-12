@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
-		D30D5CC71DE51AFD00D2D13F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC61DE51AFD00D2D13F /* ViewController.swift */; };
+		D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC61DE51AFD00D2D13F /* MenuController.swift */; };
 		D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CC81DE51AFD00D2D13F /* Main.storyboard */; };
 		D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */; };
 		D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCD1DE51AFD00D2D13F /* LaunchScreen.storyboard */; };
-		D35DCD351DFC96FC00CE4982 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD341DFC96FC00CE4982 /* TapButton.swift */; };
+		D35DCD351DFC96FC00CE4982 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD341DFC96FC00CE4982 /* Button.swift */; };
 		D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD361DFC974300CE4982 /* FlatSurface.swift */; };
 		D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD381DFC976C00CE4982 /* SnapFingers.swift */; };
 		D35DCD4F1DFC9CCD00CE4982 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D35DCD3B1DFC9CCD00CE4982 /* .gitignore */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileWriter-Bridging-Header.h"; sourceTree = "<group>"; };
 		D308F8851DFDEBC80059C3EA /* BufferedOverlapQueue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferedOverlapQueue-Bridging-Header.h"; sourceTree = "<group>"; };
 		D308F8861DFDEBF10059C3EA /* CircularBuffer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularBuffer-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -40,12 +42,12 @@
 		D308F88B1DFDECA80059C3EA /* PeakFinder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeakFinder-Bridging-Header.h"; sourceTree = "<group>"; };
 		D30D5CC11DE51AFD00D2D13F /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D30D5CC61DE51AFD00D2D13F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D30D5CC61DE51AFD00D2D13F /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		D30D5CC91DE51AFD00D2D13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30D5CCE1DE51AFD00D2D13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30D5CD01DE51AFD00D2D13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D35DCD341DFC96FC00CE4982 /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
+		D35DCD341DFC96FC00CE4982 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		D35DCD361DFC974300CE4982 /* FlatSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatSurface.swift; sourceTree = "<group>"; };
 		D35DCD381DFC976C00CE4982 /* SnapFingers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapFingers.swift; sourceTree = "<group>"; };
 		D35DCD3B1DFC9CCD00CE4982 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -104,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */,
-				D30D5CC61DE51AFD00D2D13F /* ViewController.swift */,
+				D30D5CC61DE51AFD00D2D13F /* MenuController.swift */,
 				D30D5CC81DE51AFD00D2D13F /* Main.storyboard */,
 				D35DCD331DFC909200CE4982 /* TaskFiles */,
 				D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */,
@@ -118,7 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				D3B371AE1DEDDD280015CE05 /* Task.swift */,
-				D35DCD341DFC96FC00CE4982 /* TapButton.swift */,
+				D35DCD341DFC96FC00CE4982 /* Button.swift */,
+				C2E5354B1DFE467D003F749A /* Slide.swift */,
 				D35DCD361DFC974300CE4982 /* FlatSurface.swift */,
 				D35DCD381DFC976C00CE4982 /* SnapFingers.swift */,
 			);
@@ -242,7 +245,8 @@
 				D35DCD551DFC9CCD00CE4982 /* DataBufferBlock.m in Sources */,
 				D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */,
 				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
-				D30D5CC71DE51AFD00D2D13F /* ViewController.swift in Sources */,
+				D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */,
+				C2E5354C1DFE467D003F749A /* Slide.swift in Sources */,
 				D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */,
 				D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */,
 				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
@@ -250,7 +254,7 @@
 				D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */,
 				D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */,
 				D35DCD521DFC9CCD00CE4982 /* BufferedOverlapQueue.m in Sources */,
-				D35DCD351DFC96FC00CE4982 /* TapButton.swift in Sources */,
+				D35DCD351DFC96FC00CE4982 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

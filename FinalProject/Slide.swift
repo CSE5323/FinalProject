@@ -1,5 +1,5 @@
 //
-//  SnapFingers.swift
+//  Button.swift
 //  FinalProject
 //
 //  Created by Jenn Le on 12/10/16.
@@ -8,8 +8,8 @@
 
 import Foundation
 
-class SnapFingers: Task {
+class Slide: Task {
+    
     override func setupTask() {
-        
     }
 }

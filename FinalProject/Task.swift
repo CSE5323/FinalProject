@@ -7,24 +7,19 @@
 //
 
 import Foundation
+import UIKit
 
-class Task {
-    internal var instructions: String = ""
+class Task: UIViewController {
     
-    func performTask() {
+    func setupTask() {
         
     }
     
-    // Access the instruction screen to update the UI
-    func instructionLabel() -> String {
-        return instructions;
-    }
-    
-    func taskClear() {
+    func doneTask() {
         
     }
     
-    func taskFail() {
+    func failTask() {
         
     }
 }

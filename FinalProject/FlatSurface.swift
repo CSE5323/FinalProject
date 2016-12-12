@@ -9,7 +9,7 @@
 import Foundation
 
 class FlatSurface: Task {
-    override func performTask() {
+    override func setupTask() {
         
     }
 }
