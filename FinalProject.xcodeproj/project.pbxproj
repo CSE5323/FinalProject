@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */; };
+		C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
 		D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC61DE51AFD00D2D13F /* MenuController.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRunComplete.swift; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileWriter-Bridging-Header.h"; sourceTree = "<group>"; };
 		D308F8851DFDEBC80059C3EA /* BufferedOverlapQueue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferedOverlapQueue-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -107,8 +111,10 @@
 			children = (
 				D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */,
 				D30D5CC61DE51AFD00D2D13F /* MenuController.swift */,
+				C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */,
 				D30D5CC81DE51AFD00D2D13F /* Main.storyboard */,
-				D35DCD331DFC909200CE4982 /* TaskFiles */,
+				C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */,
+				D35DCD331DFC909200CE4982 /* Tasks */,
 				D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */,
 				D30D5CCD1DE51AFD00D2D13F /* LaunchScreen.storyboard */,
 				D30D5CD01DE51AFD00D2D13F /* Info.plist */,
@@ -116,16 +122,16 @@
 			path = FinalProject;
 			sourceTree = "<group>";
 		};
-		D35DCD331DFC909200CE4982 /* TaskFiles */ = {
+		D35DCD331DFC909200CE4982 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
-				D3B371AE1DEDDD280015CE05 /* Task.swift */,
 				D35DCD341DFC96FC00CE4982 /* Button.swift */,
+				D3B371AE1DEDDD280015CE05 /* Task.swift */,
 				C2E5354B1DFE467D003F749A /* Slide.swift */,
 				D35DCD361DFC974300CE4982 /* FlatSurface.swift */,
 				D35DCD381DFC976C00CE4982 /* SnapFingers.swift */,
 			);
-			name = TaskFiles;
+			name = Tasks;
 			sourceTree = "<group>";
 		};
 		D35DCD3A1DFC9CCD00CE4982 /* AudioDSPUtils */ = {
@@ -238,12 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
 				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
 				D35DCD541DFC9CCD00CE4982 /* CubicSpline.m in Sources */,
 				D35DCD501DFC9CCD00CE4982 /* AudioFileReader.m in Sources */,
 				D35DCD551DFC9CCD00CE4982 /* DataBufferBlock.m in Sources */,
 				D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */,
+				C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */,
 				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
 				D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */,
 				C2E5354C1DFE467D003F749A /* Slide.swift in Sources */,
