@@ -10,7 +10,11 @@
 		C21311041DFF09B70093C827 /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21311031DFF09B70093C827 /* Swipe.swift */; };
 		C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */; };
 		C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */; };
+		C23198591DFF320C00EC3EEE /* nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = C23198581DFF320C00EC3EEE /* nose.xml */; };
 		C278074B1DFF24A7002E58DE /* HandOverCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = C278074A1DFF24A7002E58DE /* HandOverCamera.swift */; };
+		C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = C27807501DFF2717002E58DE /* OpenCVBridge.mm */; };
+		C27807531DFF2717002E58DE /* VideoAnalgesic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27807511DFF2717002E58DE /* VideoAnalgesic.swift */; };
+		C27807551DFF2727002E58DE /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27807541DFF2727002E58DE /* opencv2.framework */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
 		D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC61DE51AFD00D2D13F /* MenuController.swift */; };
@@ -38,7 +42,13 @@
 		C21311031DFF09B70093C827 /* Swipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
 		C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRunComplete.swift; sourceTree = "<group>"; };
+		C23198581DFF320C00EC3EEE /* nose.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = nose.xml; sourceTree = "<group>"; };
 		C278074A1DFF24A7002E58DE /* HandOverCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandOverCamera.swift; sourceTree = "<group>"; };
+		C278074F1DFF26FF002E58DE /* OpenCVBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenCVBridge.h; path = ImageDSPUtils/OpenCVBridge.h; sourceTree = "<group>"; };
+		C27807501DFF2717002E58DE /* OpenCVBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVBridge.mm; path = ImageDSPUtils/OpenCVBridge.mm; sourceTree = "<group>"; };
+		C27807511DFF2717002E58DE /* VideoAnalgesic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoAnalgesic.swift; path = ImageDSPUtils/VideoAnalgesic.swift; sourceTree = "<group>"; };
+		C27807541DFF2727002E58DE /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ImageDSPUtils/opencv2.framework; sourceTree = "<group>"; };
+		C2ADBDFC1DFF2D0300A536CD /* ImageBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBridgingHeader.h; path = ImageDSPUtils/ImageBridgingHeader.h; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileWriter-Bridging-Header.h"; sourceTree = "<group>"; };
 		D308F8851DFDEBC80059C3EA /* BufferedOverlapQueue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferedOverlapQueue-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -87,15 +97,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27807551DFF2727002E58DE /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C278074E1DFF26E4002E58DE /* ImageDSPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADBDFC1DFF2D0300A536CD /* ImageBridgingHeader.h */,
+				C27807541DFF2727002E58DE /* opencv2.framework */,
+				C27807501DFF2717002E58DE /* OpenCVBridge.mm */,
+				C27807511DFF2717002E58DE /* VideoAnalgesic.swift */,
+				C278074F1DFF26FF002E58DE /* OpenCVBridge.h */,
+			);
+			name = ImageDSPUtils;
+			sourceTree = "<group>";
+		};
 		D30D5CB81DE51AFD00D2D13F = {
 			isa = PBXGroup;
 			children = (
+				C278074E1DFF26E4002E58DE /* ImageDSPUtils */,
 				D35DCD3A1DFC9CCD00CE4982 /* AudioDSPUtils */,
 				D30D5CC31DE51AFD00D2D13F /* FinalProject */,
 				D30D5CC21DE51AFD00D2D13F /* Products */,
@@ -113,6 +137,7 @@
 		D30D5CC31DE51AFD00D2D13F /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				C23198581DFF320C00EC3EEE /* nose.xml */,
 				D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */,
 				D30D5CC61DE51AFD00D2D13F /* MenuController.swift */,
 				C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */,
@@ -237,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35DCD4F1DFC9CCD00CE4982 /* .gitignore in Resources */,
+				C23198591DFF320C00EC3EEE /* nose.xml in Resources */,
 				D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */,
 				D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */,
 				D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */,
@@ -251,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */,
+				C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
 				C21311041DFF09B70093C827 /* Swipe.swift in Sources */,
 				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
@@ -267,6 +294,7 @@
 				D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */,
 				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
 				D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */,
+				C27807531DFF2717002E58DE /* VideoAnalgesic.swift in Sources */,
 				D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */,
 				D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */,
 				D35DCD521DFC9CCD00CE4982 /* BufferedOverlapQueue.m in Sources */,
@@ -392,10 +420,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6B83F7C8RZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageDSPUtils",
+				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ImageDSPUtils/ImageBridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -405,10 +439,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6B83F7C8RZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageDSPUtils",
+				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ImageDSPUtils/ImageBridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

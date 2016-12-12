@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpeedR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7J-p7-Mss">
-                                <rect key="frame" x="87" y="84" width="209" height="73"/>
+                                <rect key="frame" x="83" y="80" width="209" height="73"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="61"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -31,15 +31,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 tasks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEM-a1-FWo">
                                 <rect key="frame" x="145" y="346" width="84" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How fast are you at doing random tasks?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrW-rx-Xdz">
-                                <rect key="frame" x="32" y="203" width="311" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="8GA-1b-eyM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -71,22 +62,28 @@
                                     <action selector="startTimeTasks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="unI-hX-kNo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How fast are you at doing random tasks?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrW-rx-Xdz">
+                                <rect key="frame" x="32" y="203" width="311" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="AEM-a1-FWo" firstAttribute="centerX" secondItem="Sz6-cr-2TM" secondAttribute="centerX" id="3FU-mu-hxA"/>
                             <constraint firstItem="lr0-Cx-7uQ" firstAttribute="top" secondItem="Sz6-cr-2TM" secondAttribute="bottom" constant="89" id="3GF-GU-801"/>
-                            <constraint firstItem="IrW-rx-Xdz" firstAttribute="top" secondItem="L7J-p7-Mss" secondAttribute="bottom" constant="46" id="Azf-Tr-1Kj"/>
                             <constraint firstItem="t8i-Ra-hhB" firstAttribute="top" secondItem="lr0-Cx-7uQ" secondAttribute="bottom" constant="8" symbolic="YES" id="BHF-hK-9Fc"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="t8i-Ra-hhB" secondAttribute="bottom" constant="48" id="Hel-KA-UVX"/>
-                            <constraint firstItem="L7J-p7-Mss" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="NO5-Ix-cUR"/>
+                            <constraint firstItem="IrW-rx-Xdz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R1J-nY-esq"/>
                             <constraint firstItem="AEM-a1-FWo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RRf-t4-1cX"/>
-                            <constraint firstItem="L7J-p7-Mss" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="71" id="XxW-D5-IWU"/>
                             <constraint firstItem="Sz6-cr-2TM" firstAttribute="top" secondItem="AEM-a1-FWo" secondAttribute="bottom" constant="8" symbolic="YES" id="aCo-eH-fPV"/>
-                            <constraint firstItem="IrW-rx-Xdz" firstAttribute="centerX" secondItem="AEM-a1-FWo" secondAttribute="centerX" id="hIR-08-ie4"/>
+                            <constraint firstItem="L7J-p7-Mss" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="if4-Nq-wEt"/>
                             <constraint firstItem="AEM-a1-FWo" firstAttribute="leading" secondItem="lr0-Cx-7uQ" secondAttribute="leading" id="img-04-XFM"/>
                             <constraint firstItem="lr0-Cx-7uQ" firstAttribute="centerX" secondItem="t8i-Ra-hhB" secondAttribute="centerX" id="q0K-Bk-hjB"/>
+                            <constraint firstItem="IrW-rx-Xdz" firstAttribute="top" secondItem="L7J-p7-Mss" secondAttribute="bottom" constant="50" id="sDn-IF-gp8"/>
                             <constraint firstItem="Sz6-cr-2TM" firstAttribute="trailing" secondItem="t8i-Ra-hhB" secondAttribute="trailing" id="vvY-5o-T1E"/>
+                            <constraint firstItem="L7J-p7-Mss" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="wNx-80-utp"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -332,8 +329,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sat your phone down facing up" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scg-q7-Rze" userLabel="Flat Surface Label">
-                                <rect key="frame" x="69" y="254" width="238" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sit your phone down facing up" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scg-q7-Rze" userLabel="Flat Surface Label">
+                                <rect key="frame" x="71" y="254" width="233" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -344,21 +341,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick it up when done" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOn-Gg-ZLd">
-                                <rect key="frame" x="108" y="323" width="159" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="YOn-Gg-ZLd" firstAttribute="centerX" secondItem="4gf-Ux-Ax8" secondAttribute="centerX" id="9fH-7T-RYk"/>
                             <constraint firstItem="scg-q7-Rze" firstAttribute="top" secondItem="0IL-Ub-P1P" secondAttribute="bottom" constant="234" id="Pcy-JF-2JW"/>
                             <constraint firstItem="zps-Jm-2Ec" firstAttribute="centerX" secondItem="4gf-Ux-Ax8" secondAttribute="centerX" id="SAK-eq-vQv"/>
                             <constraint firstItem="zps-Jm-2Ec" firstAttribute="top" secondItem="0IL-Ub-P1P" secondAttribute="bottom" id="bub-0M-3QM"/>
                             <constraint firstItem="scg-q7-Rze" firstAttribute="centerX" secondItem="4gf-Ux-Ax8" secondAttribute="centerX" id="h0X-VV-vAL"/>
-                            <constraint firstItem="YOn-Gg-ZLd" firstAttribute="top" secondItem="0IL-Ub-P1P" secondAttribute="bottom" constant="303" id="sfm-xT-Ofr"/>
                         </constraints>
                     </view>
                     <connections>
@@ -368,6 +357,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fvd-tw-jtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2937" y="124"/>
+        </scene>
+        <!--Hand Over Camera-->
+        <scene sceneID="cdi-Bx-RJq">
+            <objects>
+                <viewController storyboardIdentifier="HandOverCamera" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AgN-bv-Yyc" customClass="HandOverCamera" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mjl-wL-vhk"/>
+                        <viewControllerLayoutGuide type="bottom" id="d7n-SR-bo7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZtH-Zp-xKy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hand Over Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOj-mH-fuO">
+                                <rect key="frame" x="114" y="20" width="146" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place your palm over the back camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKt-OA-msy">
+                                <rect key="frame" x="41" y="285" width="292" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="fKt-OA-msy" firstAttribute="top" secondItem="Mjl-wL-vhk" secondAttribute="bottom" constant="265" id="Hal-1Y-IRi"/>
+                            <constraint firstItem="NOj-mH-fuO" firstAttribute="top" secondItem="Mjl-wL-vhk" secondAttribute="bottom" id="MaW-nf-T1a"/>
+                            <constraint firstItem="NOj-mH-fuO" firstAttribute="centerX" secondItem="ZtH-Zp-xKy" secondAttribute="centerX" id="Swt-Or-nf4"/>
+                            <constraint firstItem="fKt-OA-msy" firstAttribute="centerX" secondItem="ZtH-Zp-xKy" secondAttribute="centerX" id="wBg-w8-9PT"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Vb1-bH-YKi" appends="YES" id="ab3-L4-hlj"/>
+                            <outletCollection property="gestureRecognizers" destination="B3K-zw-rF1" appends="YES" id="a7w-jo-PEG"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UuA-BL-Afe" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Vb1-bH-YKi">
+                    <connections>
+                        <action selector="swipeRecognized:" destination="AgN-bv-Yyc" id="gu9-K1-KNO"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="B3K-zw-rF1">
+                    <connections>
+                        <action selector="swipeRecognized:" destination="AgN-bv-Yyc" id="coe-bT-xUL"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3618" y="124"/>
         </scene>
     </scenes>
 </document>
