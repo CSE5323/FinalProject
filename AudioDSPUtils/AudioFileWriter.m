@@ -69,8 +69,6 @@ static pthread_mutex_t outputAudioFileLock;
     
     free(self.outputBuffer);
     free(self.holdingBuffer);
-    
-    [super dealloc];
 }
 
 - (id)initWithAudioFileURL:(NSURL *)urlToAudioFile samplingRate:(float)thisSamplingRate numChannels:(UInt32)thisNumChannels
@@ -85,11 +83,11 @@ static pthread_mutex_t outputAudioFileLock;
         
         // Open a reference to the audio file
         self.audioFileURL = urlToAudioFile;
-        CFURLRef audioFileRef = (CFURLRef)self.audioFileURL;
+        CFURLRef audioFileRef = (__bridge CFURLRef)self.audioFileURL;
         
         AudioStreamBasicDescription outputFileDesc = {44100.0, kAudioFormatMPEG4AAC, 0, 0, 1024, 0, thisNumChannels, 0, 0};
         
-        CheckError(ExtAudioFileCreateWithURL(audioFileRef, kAudioFileM4AType, &outputFileDesc, NULL, kAudioFileFlags_EraseFile, &_outputFile), "Creating file");
+//        CheckError(ExtAudioFileCreateWithURL(audioFileRef, kAudioFileM4AType, &outputFileDesc, NULL, kAudioFileFlags_EraseFile, &_outputFile), "Creating file");
         
         
         // Set a few defaults and presets
@@ -122,8 +120,9 @@ static pthread_mutex_t outputAudioFileLock;
         
         // mutex here //
         if( 0 == pthread_mutex_trylock( &outputAudioFileLock ) ) 
-        {       
-            CheckError( ExtAudioFileWriteAsync(self.outputFile, 0, NULL), "Initializing audio file");
+        {
+            ExtAudioFileWriteAsync(self.outputFile, 0, NULL);
+//            CheckError( ExtAudioFileWriteAsync(self.outputFile, 0, NULL), "Initializing audio file");
         }
         pthread_mutex_unlock( &outputAudioFileLock );
         
