@@ -460,5 +460,54 @@
             </objects>
             <point key="canvasLocation" x="4300" y="123.68815592203899"/>
         </scene>
+        <!--Shake-->
+        <scene sceneID="HMJ-Pl-A5O">
+            <objects>
+                <viewController storyboardIdentifier="Shake" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jNr-kJ-sN5" customClass="Shake" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pxz-sP-9AX"/>
+                        <viewControllerLayoutGuide type="bottom" id="fhp-LF-Y6C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Ot-5V-Ddx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgM-cf-ODn">
+                                <rect key="frame" x="164" y="28" width="47" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake the phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVJ-7t-tU2">
+                                <rect key="frame" x="123" y="300" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flick the phone in any direction and back" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdC-rz-lEK">
+                                <rect key="frame" x="31" y="400" width="312" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="312" id="JXh-bF-i24"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EgM-cf-ODn" firstAttribute="top" secondItem="pxz-sP-9AX" secondAttribute="bottom" constant="8" id="KtO-e2-6Kx"/>
+                            <constraint firstItem="BVJ-7t-tU2" firstAttribute="centerX" secondItem="2Ot-5V-Ddx" secondAttribute="centerX" id="Nf9-Wd-Bl3"/>
+                            <constraint firstItem="vdC-rz-lEK" firstAttribute="top" secondItem="pxz-sP-9AX" secondAttribute="bottom" constant="380" id="WnV-D8-Gqu"/>
+                            <constraint firstItem="BVJ-7t-tU2" firstAttribute="top" secondItem="pxz-sP-9AX" secondAttribute="bottom" constant="280" id="ahc-nT-lFk"/>
+                            <constraint firstItem="EgM-cf-ODn" firstAttribute="centerX" secondItem="2Ot-5V-Ddx" secondAttribute="centerX" id="pCE-ko-d1A"/>
+                            <constraint firstItem="vdC-rz-lEK" firstAttribute="centerX" secondItem="2Ot-5V-Ddx" secondAttribute="centerX" id="xNr-pV-ICT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qud-DR-YJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4960.8000000000002" y="123.68815592203899"/>
+        </scene>
     </scenes>
 </document>
