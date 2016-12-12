@@ -11,10 +11,12 @@
 		C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */; };
 		C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */; };
 		C23198591DFF320C00EC3EEE /* nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = C23198581DFF320C00EC3EEE /* nose.xml */; };
+		C231985B1DFF47C700EC3EEE /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C231985A1DFF47C700EC3EEE /* Walk.swift */; };
 		C278074B1DFF24A7002E58DE /* HandOverCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = C278074A1DFF24A7002E58DE /* HandOverCamera.swift */; };
 		C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = C27807501DFF2717002E58DE /* OpenCVBridge.mm */; };
 		C27807531DFF2717002E58DE /* VideoAnalgesic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27807511DFF2717002E58DE /* VideoAnalgesic.swift */; };
 		C27807551DFF2727002E58DE /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27807541DFF2727002E58DE /* opencv2.framework */; };
+		C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB691DFF574E00DF1ACD /* Shake.swift */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
 		D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC61DE51AFD00D2D13F /* MenuController.swift */; };
@@ -43,11 +45,13 @@
 		C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRunComplete.swift; sourceTree = "<group>"; };
 		C23198581DFF320C00EC3EEE /* nose.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = nose.xml; sourceTree = "<group>"; };
+		C231985A1DFF47C700EC3EEE /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
 		C278074A1DFF24A7002E58DE /* HandOverCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandOverCamera.swift; sourceTree = "<group>"; };
 		C278074F1DFF26FF002E58DE /* OpenCVBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenCVBridge.h; path = ImageDSPUtils/OpenCVBridge.h; sourceTree = "<group>"; };
 		C27807501DFF2717002E58DE /* OpenCVBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVBridge.mm; path = ImageDSPUtils/OpenCVBridge.mm; sourceTree = "<group>"; };
 		C27807511DFF2717002E58DE /* VideoAnalgesic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoAnalgesic.swift; path = ImageDSPUtils/VideoAnalgesic.swift; sourceTree = "<group>"; };
 		C27807541DFF2727002E58DE /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ImageDSPUtils/opencv2.framework; sourceTree = "<group>"; };
+		C286FB691DFF574E00DF1ACD /* Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
 		C2ADBDFC1DFF2D0300A536CD /* ImageBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBridgingHeader.h; path = ImageDSPUtils/ImageBridgingHeader.h; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D308F8841DFDEB840059C3EA /* AudioFileWriter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileWriter-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -158,9 +162,11 @@
 				C21311031DFF09B70093C827 /* Swipe.swift */,
 				D3B371AE1DEDDD280015CE05 /* Task.swift */,
 				C2E5354B1DFE467D003F749A /* Slide.swift */,
+				C286FB691DFF574E00DF1ACD /* Shake.swift */,
 				D35DCD361DFC974300CE4982 /* FlatSurface.swift */,
 				D35DCD381DFC976C00CE4982 /* SnapFingers.swift */,
 				C278074A1DFF24A7002E58DE /* HandOverCamera.swift */,
+				C231985A1DFF47C700EC3EEE /* Walk.swift */,
 			);
 			name = Tasks;
 			sourceTree = "<group>";
@@ -277,9 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */,
+				C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */,
 				C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
 				C21311041DFF09B70093C827 /* Swipe.swift in Sources */,
+				C231985B1DFF47C700EC3EEE /* Walk.swift in Sources */,
 				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
 				D35DCD541DFC9CCD00CE4982 /* CubicSpline.m in Sources */,
 				D35DCD501DFC9CCD00CE4982 /* AudioFileReader.m in Sources */,

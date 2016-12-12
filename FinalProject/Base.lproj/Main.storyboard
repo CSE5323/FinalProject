@@ -411,5 +411,54 @@
             </objects>
             <point key="canvasLocation" x="3618" y="124"/>
         </scene>
+        <!--Walk-->
+        <scene sceneID="qmm-lY-xMg">
+            <objects>
+                <viewController storyboardIdentifier="Walk" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Ta-7A-x4w" customClass="Walk" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oui-UO-Eb5"/>
+                        <viewControllerLayoutGuide type="bottom" id="YJK-JD-cW3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3MS-Hw-Kom">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0U-fk-t7J">
+                                <rect key="frame" x="169" y="28" width="37" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start walking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQK-ZE-wap">
+                                <rect key="frame" x="137" y="299" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place your phone in your handing and walk with your arms moving" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6a-j3-7k9">
+                                <rect key="frame" x="34" y="453" width="306" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="306" id="V7b-Pc-pYp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l6a-j3-7k9" firstAttribute="centerX" secondItem="3MS-Hw-Kom" secondAttribute="centerX" id="3dt-vm-ReZ"/>
+                            <constraint firstItem="o0U-fk-t7J" firstAttribute="centerX" secondItem="3MS-Hw-Kom" secondAttribute="centerX" id="DSz-e6-eW7"/>
+                            <constraint firstItem="o0U-fk-t7J" firstAttribute="top" secondItem="Oui-UO-Eb5" secondAttribute="bottom" constant="8" id="JbV-F6-O8W"/>
+                            <constraint firstItem="PQK-ZE-wap" firstAttribute="centerX" secondItem="3MS-Hw-Kom" secondAttribute="centerX" id="brb-QY-bLp"/>
+                            <constraint firstItem="l6a-j3-7k9" firstAttribute="top" secondItem="Oui-UO-Eb5" secondAttribute="bottom" constant="433" id="iOE-s9-sso"/>
+                            <constraint firstItem="PQK-ZE-wap" firstAttribute="top" secondItem="Oui-UO-Eb5" secondAttribute="bottom" constant="279" id="kTx-tM-AFE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lyL-eQ-bhv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4300" y="123.68815592203899"/>
+        </scene>
     </scenes>
 </document>
