@@ -52,6 +52,7 @@
 		FAAB41BC1DFF9F2400C7FDBF /* RunInPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */; };
 		FAAB41BE1DFFBD5200C7FDBF /* TiltForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BD1DFFBD5200C7FDBF /* TiltForward.swift */; };
 		FAAB41C01DFFE33800C7FDBF /* TiltBackward.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */; };
+		FAAB41C21E0011AC00C7FDBF /* Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41C11E0011AC00C7FDBF /* Rotate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +129,7 @@
 		FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunInPlace.swift; sourceTree = "<group>"; };
 		FAAB41BD1DFFBD5200C7FDBF /* TiltForward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltForward.swift; sourceTree = "<group>"; };
 		FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltBackward.swift; sourceTree = "<group>"; };
+		FAAB41C11E0011AC00C7FDBF /* Rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 				FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */,
 				D367F1C11DFFA4B30005B81B /* FindNorth.swift */,
 				D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */,
+				FAAB41C11E0011AC00C7FDBF /* Rotate.swift */,
 			);
 			name = Tasks;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */,
 				D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */,
 				D35DCD521DFC9CCD00CE4982 /* BufferedOverlapQueue.m in Sources */,
+				FAAB41C21E0011AC00C7FDBF /* Rotate.swift in Sources */,
 				D35DCD351DFC96FC00CE4982 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
