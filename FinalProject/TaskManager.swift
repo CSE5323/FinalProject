@@ -10,7 +10,6 @@ import Foundation
 
 class  TaskManager {
 
-
 //    static let taskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Walk", "Shake", "Switch", "DoMath", "DifferentShade", "Clap", "PinchScreen", "FindAFriend", "FindNorth", "FingerDown", "Beep", "TurnLeft", "TurnRight"]
     
     //Here for testing purposes
