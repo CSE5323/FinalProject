@@ -21,7 +21,7 @@ class Rotate: Task {
     
     @IBAction func handleRotate(recognizer : UIRotationGestureRecognizer) {
         if let view = recognizer.view {
-            label.transform = view.transform.rotated(by: recognizer.rotation)
+            label.transform = label.transform.rotated(by: recognizer.rotation)
             
             recognizer.rotation = 0
         }
