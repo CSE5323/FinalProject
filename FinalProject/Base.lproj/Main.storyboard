@@ -196,49 +196,49 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find the different shade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZ0-fN-i96" customClass="Diff">
-                                <rect key="frame" x="16" y="28" width="343" height="20.5"/>
+                                <rect key="frame" x="16" y="28" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="H2D-CQ-uWC">
-                                <rect key="frame" x="16" y="57" width="357" height="601"/>
+                                <rect key="frame" x="16" y="57" width="357" height="600"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="NV8-mJ-MdS">
-                                        <rect key="frame" x="0.0" y="0.0" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="357" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knP-Oi-5fj">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="KAS-tF-APf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wk3-Or-Y6A">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="U8r-iJ-Fhd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTV-CT-q45">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="MId-xM-yZh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgI-LA-qAA">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="WTH-m3-Rqd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rz9-bU-l5j" userLabel="B04">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="6JT-sM-tgV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAj-XZ-2KW">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="o6O-Wa-YnD"/>
                                                 </connections>
@@ -246,40 +246,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ehy-pX-d0h">
-                                        <rect key="frame" x="0.0" y="60.5" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="60" width="357" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWd-iE-Cbd">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="rZo-Sc-SSZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9B0-7n-hLE">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="0jy-CA-qZf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCS-vW-Nbt">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="yvd-ai-U3z"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhQ-dZ-vjK">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="fel-6c-wzS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MZ-A5-8fp">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="qvm-BE-V6p"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbi-WI-q95">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="IEW-hz-47t"/>
                                                 </connections>
@@ -287,40 +287,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="43I-0g-gsL">
-                                        <rect key="frame" x="0.0" y="121" width="357" height="57"/>
+                                        <rect key="frame" x="0.0" y="120" width="357" height="58"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIl-AX-bRX">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tOU-QS-lDM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cd-n1-3KS">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="ab0-Ed-Qpd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAL-a4-vKT">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="iin-83-Hyf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="815-Hi-P1p">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="UNE-oz-Eh7"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNx-gW-vj7">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="SYz-FH-uOw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch2-q7-dFJ">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="oy2-dG-sDo"/>
                                                 </connections>
@@ -328,40 +328,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="7C3-ex-1p3">
-                                        <rect key="frame" x="0.0" y="181" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="181" width="357" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0T-vZ-0Jl">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="u89-ci-x7S"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlU-3V-Kui">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="uYG-Ew-2n4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAv-PP-eBG">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="F7C-7y-euI"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gny-qa-xuE">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="h4k-X4-9Yf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H02-mS-NUU">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="YT3-4f-MbZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApC-AA-b4a">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="8vD-vR-zYh"/>
                                                 </connections>
@@ -369,40 +369,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="eKF-Kh-flm">
-                                        <rect key="frame" x="0.0" y="241.5" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="241" width="357" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7e-hY-1GM">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="7Xo-rX-Tjl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbm-FA-EEb">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="YjW-Ah-I48"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ged-Ei-VQT">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="qlS-T5-IKY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5I-Gu-bYV">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="bRN-w3-CvU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJ7-AB-XLM">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="naG-us-PzM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjd-Ub-hyz">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="389-M6-6aO"/>
                                                 </connections>
@@ -410,40 +410,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ctb-pz-ggp">
-                                        <rect key="frame" x="0.0" y="302" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="301" width="357" height="58"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHz-Vh-SRB">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="Ttm-gJ-BeK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4K-AU-aOQ">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="nZ6-Cf-qIK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flj-6O-x6M">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="zvc-xZ-G8U"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pl7-hI-fbw">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="otj-6E-ZQP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aY-52-55C">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="z2J-Bv-Re5"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgm-P1-8mb">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="Tz6-Fs-pn7"/>
                                                 </connections>
@@ -451,40 +451,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="n0h-Nq-8Bh">
-                                        <rect key="frame" x="0.0" y="362.5" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="362" width="357" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PET-5V-fWA">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="uea-us-Xw7"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSO-m8-pvP">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="5M7-8K-5SN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKz-6P-HQq">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="piH-7F-1j4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5IP-9A-qH0">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="5Ca-xK-Maz"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bG-uM-UZp">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="5gX-SV-ncX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dq-YQ-mEM">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="kIq-6g-NIT"/>
                                                 </connections>
@@ -492,7 +492,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="jb3-X1-neI">
-                                        <rect key="frame" x="0.0" y="423" width="357" height="57"/>
+                                        <rect key="frame" x="0.0" y="422" width="357" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNa-GQ-gP0">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
@@ -533,40 +533,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="KGa-hX-C5d">
-                                        <rect key="frame" x="0.0" y="483" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="482" width="357" height="58"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sl7-jR-sdl">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tlm-EM-3Za"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LI-9f-ClV">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="oij-p4-fa2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADy-FA-gEf">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tC9-tQ-bq8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ge-BW-Jel">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="FnR-cZ-rLQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4W-Le-6yt">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="3xu-si-sQ3"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFC-In-SNv">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="58"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="iVo-BY-1fA"/>
                                                 </connections>
@@ -574,40 +574,40 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="E3O-mi-vKy">
-                                        <rect key="frame" x="0.0" y="543.5" width="357" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="543" width="357" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mA-AN-vkb">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="N34-7d-0Ka"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-tm-NtV">
-                                                <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="60" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="1JA-MV-bGK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCw-c4-kOd">
-                                                <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="120" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="rKQ-OT-Ol9"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mr-nb-yyH">
-                                                <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="180" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tEq-Pn-qa2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9F-hF-Dfv">
-                                                <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="240" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="lml-53-Uwl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvR-n9-IFd">
-                                                <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="57" height="57"/>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="Aje-6q-wK7"/>
                                                 </connections>
@@ -721,7 +721,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Vty-sW-N7h">
-                                <rect key="frame" x="147" y="191" width="81" height="21"/>
+                                <rect key="frame" x="147" y="191.5" width="81" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jiy-ZW-aur" userLabel="op1">
                                         <rect key="frame" x="0.0" y="0.0" width="15" height="20.5"/>
@@ -785,7 +785,6 @@
             </objects>
             <point key="canvasLocation" x="1536.8" y="861.3193403298352"/>
         </scene>
-
         <!--Run In Place-->
         <scene sceneID="Lg9-eX-u1g">
             <objects>
@@ -800,7 +799,33 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Run in Place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tY-Xd-elN">
                                 <rect key="frame" x="140" y="20" width="94" height="21"/>
-
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please keep your phone either in your hand or in your pocket." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9w-6n-RAY">
+                                <rect key="frame" x="16" y="467" width="343" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start Running" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1I-bA-3AH">
+                                <rect key="frame" x="140" y="262" width="105" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k53-Qv-Kpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2257" y="1518"/>
+        </scene>
         <!--Find North-->
         <scene sceneID="kHU-to-co6">
             <objects>
@@ -820,9 +845,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please keep your phone either in your hand or in your pocket." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9w-6n-RAY">
-                                <rect key="frame" x="16" y="467" width="343" height="81"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -850,20 +872,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start Running" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1I-bA-3AH">
-                                <rect key="frame" x="140" y="262" width="105" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k53-Qv-Kpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PD5-oX-IsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="dLR-H6-ZhI"/>
             </objects>
-            <point key="canvasLocation" x="2253.5999999999999" y="864.91754122938539"/>
+            <point key="canvasLocation" x="2936.8000000000002" y="859.52023988005999"/>
         </scene>
         <!--Tilt Right-->
         <scene sceneID="0yX-Hn-dsM">
@@ -886,29 +902,28 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUh-Zp-Oo6">
                                 <rect key="frame" x="152" y="241" width="70" height="57"/>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Monkey11" translatesAutoresizingMaskIntoConstraints="NO" id="UqN-Cv-gjm">
-                                <rect key="frame" x="58" y="143" width="259" height="381"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EHR-uJ-VBr">
-                                <rect key="frame" x="48" y="106" width="281" height="434"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tilt Right" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thn-3V-2JL">
+                                <rect key="frame" x="153" y="20" width="69" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="dLR-H6-ZhI" appends="YES" id="SML-BJ-vUt"/>
-                                </connections>
-                            </view>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="TUh-Zp-Oo6" id="ZyD-dZ-8QL"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PD5-oX-IsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pinchGestureRecognizer id="dLR-H6-ZhI"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gg-1f-HSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2936.8000000000002" y="859.52023988005999"/>
+            <point key="canvasLocation" x="2937" y="1518"/>
         </scene>
         <!--FindA Friend-->
         <scene sceneID="BlF-oL-ngn">
@@ -929,14 +944,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tilt Right" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thn-3V-2JL">
-                                <rect key="frame" x="153" y="20" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glx-DJ-PqI">
                                 <rect key="frame" x="16" y="57" width="336" height="590"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -946,7 +953,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-
                         <outlet property="cameraView" destination="glx-DJ-PqI" id="MFW-Ee-bBg"/>
                     </connections>
                 </viewController>
@@ -1426,6 +1432,32 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMl-MR-bHy">
                                 <rect key="frame" x="152" y="244" width="70" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tilt the phone to the left 90 degrees" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUm-9F-EmT">
+                                <rect key="frame" x="16" y="461" width="343" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tilt Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWv-sA-l0n">
+                                <rect key="frame" x="158" y="20" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKe-ai-Djk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3617" y="1518"/>
+        </scene>
         <!--Clap-->
         <scene sceneID="FDj-Vs-cYv">
             <objects>
@@ -1582,11 +1614,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tilt the phone to the left 90 degrees" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUm-9F-EmT">
-                                <rect key="frame" x="16" y="461" width="343" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many times did you hear the sound?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGM-AG-RhY">
                                 <rect key="frame" x="30" y="177" width="315" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1681,11 +1708,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tilt Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWv-sA-l0n">
-                                <rect key="frame" x="158" y="20" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn the phone to the right then back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pF2-qo-qQk">
                                 <rect key="frame" x="45" y="279" width="286" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1694,7 +1716,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                       <constraints>
+                        <constraints>
                             <constraint firstItem="5VI-lD-s1T" firstAttribute="top" secondItem="H01-tb-5T6" secondAttribute="bottom" constant="8" id="cjZ-3b-TdP"/>
                             <constraint firstItem="pF2-qo-qQk" firstAttribute="top" secondItem="H01-tb-5T6" secondAttribute="bottom" constant="259" id="n5f-2F-AQZ"/>
                             <constraint firstItem="5VI-lD-s1T" firstAttribute="centerX" secondItem="4Jq-nT-4qH" secondAttribute="centerX" id="nue-Jf-7co"/>
@@ -1707,7 +1729,4 @@
             <point key="canvasLocation" x="8941.6000000000004" y="123.68815592203899"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Monkey11" width="728" height="978"/>
-    </resources>
 </document>
