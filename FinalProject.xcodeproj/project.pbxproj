@@ -42,6 +42,7 @@
 		D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */; };
 		D35DCD591DFC9CCD00CE4982 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4E1DFC9CCD00CE4982 /* README.md */; };
 		D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367F1BF1DFF77AA0005B81B /* DoMath.swift */; };
+		D367F1C21DFFA4B30005B81B /* FindNorth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367F1C11DFFA4B30005B81B /* FindNorth.swift */; };
 		D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B371AE1DEDDD280015CE05 /* Task.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,7 @@
 		D35DCD4E1DFC9CCD00CE4982 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D35DCD5A1DFC9D2D00CE4982 /* AudioFileReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileReader-Bridging-Header.h"; sourceTree = "<group>"; };
 		D367F1BF1DFF77AA0005B81B /* DoMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoMath.swift; sourceTree = "<group>"; };
+		D367F1C11DFFA4B30005B81B /* FindNorth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindNorth.swift; sourceTree = "<group>"; };
 		D3B371AE1DEDDD280015CE05 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,6 +209,7 @@
 				D35DCD361DFC974300CE4982 /* FlatSurface.swift */,
 				C278074A1DFF24A7002E58DE /* HandOverCamera.swift */,
 				C231985A1DFF47C700EC3EEE /* Walk.swift */,
+				D367F1C11DFFA4B30005B81B /* FindNorth.swift */,
 			);
 			name = Tasks;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 			files = (
 				C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */,
 				C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */,
+				D367F1C21DFFA4B30005B81B /* FindNorth.swift in Sources */,
 				C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
 				D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */,
