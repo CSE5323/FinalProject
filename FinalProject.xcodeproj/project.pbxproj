@@ -18,9 +18,9 @@
 		C27807531DFF2717002E58DE /* VideoAnalgesic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27807511DFF2717002E58DE /* VideoAnalgesic.swift */; };
 		C27807551DFF2727002E58DE /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27807541DFF2727002E58DE /* opencv2.framework */; };
 		C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB691DFF574E00DF1ACD /* Shake.swift */; };
-		C286FB6F1DFF660D00DF1ACD /* SMUGraphHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C286FB6E1DFF660D00DF1ACD /* SMUGraphHelper.m */; };
 		C286FB751DFF727600DF1ACD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C286FB741DFF727600DF1ACD /* Podfile */; };
 		C286FB791DFF752F00DF1ACD /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB781DFF752F00DF1ACD /* Switch.swift */; };
+		C286FB7B1DFF87A500DF1ACD /* Clap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB7A1DFF87A500DF1ACD /* Clap.swift */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
@@ -65,6 +65,7 @@
 		C286FB701DFF683F00DF1ACD /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		C286FB741DFF727600DF1ACD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		C286FB781DFF752F00DF1ACD /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		C286FB7A1DFF87A500DF1ACD /* Clap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clap.swift; sourceTree = "<group>"; };
 		C2ADBDFC1DFF2D0300A536CD /* ImageBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBridgingHeader.h; path = ImageDSPUtils/ImageBridgingHeader.h; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentShade.swift; sourceTree = "<group>"; };
@@ -195,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				C286FB781DFF752F00DF1ACD /* Switch.swift */,
+				C286FB7A1DFF87A500DF1ACD /* Clap.swift */,
 				D35DCD341DFC96FC00CE4982 /* Button.swift */,
 				D367F1BF1DFF77AA0005B81B /* DoMath.swift */,
 				C21311031DFF09B70093C827 /* Swipe.swift */,
@@ -383,6 +385,7 @@
 				C231985B1DFF47C700EC3EEE /* Walk.swift in Sources */,
 				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
 				D35DCD541DFC9CCD00CE4982 /* CubicSpline.m in Sources */,
+				C286FB7B1DFF87A500DF1ACD /* Clap.swift in Sources */,
 				D35DCD501DFC9CCD00CE4982 /* AudioFileReader.m in Sources */,
 				D35DCD551DFC9CCD00CE4982 /* DataBufferBlock.m in Sources */,
 				D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */,
@@ -393,7 +396,6 @@
 				C278074B1DFF24A7002E58DE /* HandOverCamera.swift in Sources */,
 				D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */,
 				D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */,
-				D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */,
 				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
 				D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */,
 				C27807531DFF2717002E58DE /* VideoAnalgesic.swift in Sources */,

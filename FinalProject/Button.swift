@@ -8,7 +8,7 @@ class Button: Task {
     
     
     override func setupTask() {
-        maxClicks = Int(arc4random_uniform(5)) + 1
+        maxClicks = randomInt(min: 1, max: 5)
         button.setTitle("Click me " + String(maxClicks) + " times", for: .normal)
     }
     @IBAction func clickedButton(_ sender: Any) {
