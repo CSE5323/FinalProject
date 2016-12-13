@@ -78,7 +78,7 @@ class DifferentShade: Task {
     override func setupTask() {
         let (red, green, blue) = generateColor()
         let color = UIColor(red: CGFloat(red)/255, green: CGFloat(green)/255, blue: CGFloat(blue)/255, alpha: 1.0)
-        diffColor = UIColor(red: CGFloat(red)/255 + 0.03, green: CGFloat(green)/255 + 0.03, blue: CGFloat(blue)/255 + 0.03, alpha: 1.0)
+        diffColor = UIColor(red: CGFloat(red)/255 + 0.05, green: CGFloat(green)/255 + 0.05, blue: CGFloat(blue)/255 + 0.05, alpha: 1.0)
         let buttons: [[UIButton?]] = [[b00, b01, b02, b03, b04, b05],
                        [b10, b11, b12, b13, b14, b15],
                        [b20, b21, b22, b23, b24, b25],
@@ -97,10 +97,9 @@ class DifferentShade: Task {
         generatePosition(grid: buttons).backgroundColor = diffColor
     }
     
-    @IBAction func buttonPress(_ sender: Any) {
-        print("button pressed")
+    @IBAction func buttonPressed(_ sender: UIButton) {
         if (sender as AnyObject).backgroundColor == diffColor {
-          doneTask()
+            doneTask()
         }
     }
     

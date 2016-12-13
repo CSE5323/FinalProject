@@ -29,6 +29,7 @@
 		D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */; };
 		D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCD1DE51AFD00D2D13F /* LaunchScreen.storyboard */; };
 		D33AECD81DFFB3F50063D242 /* PinchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33AECD71DFFB3F50063D242 /* PinchScreen.swift */; };
+		D33AECDC1DFFCCA00063D242 /* FindAFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */; };
 		D35DCD351DFC96FC00CE4982 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD341DFC96FC00CE4982 /* Button.swift */; };
 		D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD361DFC974300CE4982 /* FlatSurface.swift */; };
 		D35DCD4F1DFC9CCD00CE4982 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D35DCD3B1DFC9CCD00CE4982 /* .gitignore */; };
@@ -87,6 +88,7 @@
 		D30D5CCE1DE51AFD00D2D13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30D5CD01DE51AFD00D2D13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33AECD71DFFB3F50063D242 /* PinchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchScreen.swift; sourceTree = "<group>"; };
+		D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindAFriend.swift; sourceTree = "<group>"; };
 		D35DCD341DFC96FC00CE4982 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		D35DCD361DFC974300CE4982 /* FlatSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatSurface.swift; sourceTree = "<group>"; };
 		D35DCD3B1DFC9CCD00CE4982 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				C278074A1DFF24A7002E58DE /* HandOverCamera.swift */,
 				C231985A1DFF47C700EC3EEE /* Walk.swift */,
 				D367F1C11DFFA4B30005B81B /* FindNorth.swift */,
+				D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */,
 			);
 			name = Tasks;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */,
 				D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */,
 				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
+				D33AECDC1DFFCCA00063D242 /* FindAFriend.swift in Sources */,
 				D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */,
 				C27807531DFF2717002E58DE /* VideoAnalgesic.swift in Sources */,
 				C286FB791DFF752F00DF1ACD /* Switch.swift in Sources */,

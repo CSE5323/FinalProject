@@ -14,7 +14,7 @@ class PinchScreen: Task {
     }
     
     @IBAction func pinchedMonkey(_ sender: UIPinchGestureRecognizer) {
-        print("pinched monkey")
+//        print("pinched monkey")
         doneTask()
     }
 }

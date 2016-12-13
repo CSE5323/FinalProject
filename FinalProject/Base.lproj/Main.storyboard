@@ -210,23 +210,38 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knP-Oi-5fj">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
                                                 <connections>
-                                                    <action selector="buttonPress:" destination="iz8-lv-98S" eventType="touchUpInside" id="AEC-7D-LlV"/>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="KAS-tF-APf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wk3-Or-Y6A">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="U8r-iJ-Fhd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTV-CT-q45">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="MId-xM-yZh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgI-LA-qAA">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="WTH-m3-Rqd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rz9-bU-l5j" userLabel="B04">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="6JT-sM-tgV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAj-XZ-2KW">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="o6O-Wa-YnD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -235,21 +250,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWd-iE-Cbd">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="rZo-Sc-SSZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9B0-7n-hLE">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="0jy-CA-qZf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCS-vW-Nbt">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="yvd-ai-U3z"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhQ-dZ-vjK">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="fel-6c-wzS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MZ-A5-8fp">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="qvm-BE-V6p"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbi-WI-q95">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="IEW-hz-47t"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -258,21 +291,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIl-AX-bRX">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tOU-QS-lDM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cd-n1-3KS">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="ab0-Ed-Qpd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAL-a4-vKT">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="iin-83-Hyf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="815-Hi-P1p">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="UNE-oz-Eh7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNx-gW-vj7">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="SYz-FH-uOw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch2-q7-dFJ">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="oy2-dG-sDo"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -281,21 +332,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0T-vZ-0Jl">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="u89-ci-x7S"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlU-3V-Kui">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="uYG-Ew-2n4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAv-PP-eBG">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="F7C-7y-euI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gny-qa-xuE">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="h4k-X4-9Yf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H02-mS-NUU">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="YT3-4f-MbZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApC-AA-b4a">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="8vD-vR-zYh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -304,21 +373,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7e-hY-1GM">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="7Xo-rX-Tjl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbm-FA-EEb">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="YjW-Ah-I48"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ged-Ei-VQT">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="qlS-T5-IKY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5I-Gu-bYV">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="bRN-w3-CvU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJ7-AB-XLM">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="naG-us-PzM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjd-Ub-hyz">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="389-M6-6aO"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -327,21 +414,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHz-Vh-SRB">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="Ttm-gJ-BeK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4K-AU-aOQ">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="nZ6-Cf-qIK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flj-6O-x6M">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="zvc-xZ-G8U"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pl7-hI-fbw">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="otj-6E-ZQP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aY-52-55C">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="z2J-Bv-Re5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgm-P1-8mb">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="Tz6-Fs-pn7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -350,21 +455,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PET-5V-fWA">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="uea-us-Xw7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSO-m8-pvP">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="5M7-8K-5SN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKz-6P-HQq">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="piH-7F-1j4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5IP-9A-qH0">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="5Ca-xK-Maz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bG-uM-UZp">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="5gX-SV-ncX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dq-YQ-mEM">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="kIq-6g-NIT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -373,24 +496,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNa-GQ-gP0">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="I2z-el-Fyv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxK-qG-vk6">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="uBZ-Fk-JNE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nn6-nC-ee3">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="8Ty-4l-4cY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCx-SS-5hr">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57"/>
                                                 <connections>
-                                                    <action selector="buttonPress:" destination="iz8-lv-98S" eventType="touchUpInside" id="1nJ-Ui-lVn"/>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="OgH-hh-ofw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAL-Xp-sNJ">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="zVB-DN-Y2X"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJB-E0-NdT">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="Qtv-LO-WDN"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -399,21 +537,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sl7-jR-sdl">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tlm-EM-3Za"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LI-9f-ClV">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="oij-p4-fa2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADy-FA-gEf">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tC9-tQ-bq8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ge-BW-Jel">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="FnR-cZ-rLQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4W-Le-6yt">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="3xu-si-sQ3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFC-In-SNv">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="iVo-BY-1fA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -422,21 +578,39 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mA-AN-vkb">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="N34-7d-0Ka"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-tm-NtV">
                                                 <rect key="frame" x="60" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="1JA-MV-bGK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCw-c4-kOd">
                                                 <rect key="frame" x="120" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="rKQ-OT-Ol9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mr-nb-yyH">
                                                 <rect key="frame" x="180" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="tEq-Pn-qa2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9F-hF-Dfv">
                                                 <rect key="frame" x="240" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="lml-53-Uwl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvR-n9-IFd">
                                                 <rect key="frame" x="300" y="0.0" width="57" height="57.5"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="iz8-lv-98S" eventType="touchUpInside" id="Aje-6q-wK7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -677,18 +851,14 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PD5-oX-IsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pinchGestureRecognizer id="dLR-H6-ZhI">
-                    <connections>
-                        <action selector="pinchedMonkey:" destination="Mop-Bd-aqX" id="oLr-4j-Ib9"/>
-                    </connections>
-                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="dLR-H6-ZhI"/>
             </objects>
             <point key="canvasLocation" x="2936.8000000000002" y="859.52023988005999"/>
         </scene>
-        <!--View Controller-->
+        <!--FindA Friend-->
         <scene sceneID="BlF-oL-ngn">
             <objects>
-                <viewController id="QYX-fc-73y" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FindAFriend" id="QYX-fc-73y" customClass="FindAFriend" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Op-Ec-hoh"/>
                         <viewControllerLayoutGuide type="bottom" id="EAB-qN-3ri"/>
@@ -696,12 +866,29 @@
                     <view key="view" contentMode="scaleToFill" id="m1t-R6-gyk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a friend" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XY8-Ty-hxy" customClass="Diff">
+                                <rect key="frame" x="16" y="28" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glx-DJ-PqI">
+                                <rect key="frame" x="16" y="57" width="336" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="cameraView" destination="glx-DJ-PqI" id="MFW-Ee-bBg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dek-7k-1iw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3617" y="860"/>
+            <point key="canvasLocation" x="3616.8000000000002" y="859.52023988005999"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="amC-EQ-tES">
