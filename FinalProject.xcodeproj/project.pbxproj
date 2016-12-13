@@ -28,6 +28,7 @@
 		D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CC81DE51AFD00D2D13F /* Main.storyboard */; };
 		D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */; };
 		D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCD1DE51AFD00D2D13F /* LaunchScreen.storyboard */; };
+		D33AECD81DFFB3F50063D242 /* PinchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33AECD71DFFB3F50063D242 /* PinchScreen.swift */; };
 		D35DCD351DFC96FC00CE4982 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD341DFC96FC00CE4982 /* Button.swift */; };
 		D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD361DFC974300CE4982 /* FlatSurface.swift */; };
 		D35DCD4F1DFC9CCD00CE4982 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D35DCD3B1DFC9CCD00CE4982 /* .gitignore */; };
@@ -85,6 +86,7 @@
 		D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30D5CCE1DE51AFD00D2D13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30D5CD01DE51AFD00D2D13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33AECD71DFFB3F50063D242 /* PinchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchScreen.swift; sourceTree = "<group>"; };
 		D35DCD341DFC96FC00CE4982 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		D35DCD361DFC974300CE4982 /* FlatSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatSurface.swift; sourceTree = "<group>"; };
 		D35DCD3B1DFC9CCD00CE4982 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				C286FB7A1DFF87A500DF1ACD /* Clap.swift */,
 				D35DCD341DFC96FC00CE4982 /* Button.swift */,
 				D367F1BF1DFF77AA0005B81B /* DoMath.swift */,
+				D33AECD71DFFB3F50063D242 /* PinchScreen.swift */,
 				C21311031DFF09B70093C827 /* Swipe.swift */,
 				D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */,
 				D3B371AE1DEDDD280015CE05 /* Task.swift */,
@@ -287,7 +290,7 @@
 				TargetAttributes = {
 					D30D5CC01DE51AFD00D2D13F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6B83F7C8RZ;
+						DevelopmentTeam = F69WJ27LN4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -381,6 +384,7 @@
 			files = (
 				C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */,
 				C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */,
+				D33AECD81DFFB3F50063D242 /* PinchScreen.swift in Sources */,
 				D367F1C21DFFA4B30005B81B /* FindNorth.swift in Sources */,
 				C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
@@ -529,13 +533,14 @@
 			baseConfigurationReference = B2A3A1E0AD4170ED8FC770F5 /* Pods-FinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6B83F7C8RZ;
+				DEVELOPMENT_TEAM = F69WJ27LN4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageDSPUtils",
 				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,13 +554,14 @@
 			baseConfigurationReference = 45223E988CB8083B483952D5 /* Pods-FinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6B83F7C8RZ;
+				DEVELOPMENT_TEAM = F69WJ27LN4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageDSPUtils",
 				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Thakugan.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";

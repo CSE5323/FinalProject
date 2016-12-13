@@ -24,8 +24,9 @@ class FindNorth: Task, CLLocationManagerDelegate {
         super.didReceiveMemoryWarning()
     }
     
-    private func locationManager(manager: CLLocationManager!, didUpdateHeading newHeading: CLHeading!) {
-        if abs(newHeading.trueHeading) < 10 {
+    func locationManager(_: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
+//        print(newHeading.trueHeading)
+        if abs(newHeading.trueHeading) < 5 {
             doneTask()
         }
     }
