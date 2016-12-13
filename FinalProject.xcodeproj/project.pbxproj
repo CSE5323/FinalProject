@@ -21,6 +21,10 @@
 		C286FB751DFF727600DF1ACD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C286FB741DFF727600DF1ACD /* Podfile */; };
 		C286FB791DFF752F00DF1ACD /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB781DFF752F00DF1ACD /* Switch.swift */; };
 		C286FB7B1DFF87A500DF1ACD /* Clap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB7A1DFF87A500DF1ACD /* Clap.swift */; };
+		C286FB7D1DFFA4F500DF1ACD /* FingerDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB7C1DFFA4F500DF1ACD /* FingerDown.swift */; };
+		C286FB7F1DFFA9C600DF1ACD /* Beep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB7E1DFFA9C600DF1ACD /* Beep.swift */; };
+		C286FB811DFFBDBA00DF1ACD /* TurnLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB801DFFBDBA00DF1ACD /* TurnLeft.swift */; };
+		C286FB831DFFC4D700DF1ACD /* TurnRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB821DFFC4D700DF1ACD /* TurnRight.swift */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
@@ -69,6 +73,10 @@
 		C286FB741DFF727600DF1ACD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		C286FB781DFF752F00DF1ACD /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		C286FB7A1DFF87A500DF1ACD /* Clap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clap.swift; sourceTree = "<group>"; };
+		C286FB7C1DFFA4F500DF1ACD /* FingerDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FingerDown.swift; sourceTree = "<group>"; };
+		C286FB7E1DFFA9C600DF1ACD /* Beep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beep.swift; sourceTree = "<group>"; };
+		C286FB801DFFBDBA00DF1ACD /* TurnLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnLeft.swift; sourceTree = "<group>"; };
+		C286FB821DFFC4D700DF1ACD /* TurnRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnRight.swift; sourceTree = "<group>"; };
 		C2ADBDFC1DFF2D0300A536CD /* ImageBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBridgingHeader.h; path = ImageDSPUtils/ImageBridgingHeader.h; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentShade.swift; sourceTree = "<group>"; };
@@ -203,7 +211,11 @@
 			children = (
 				C286FB781DFF752F00DF1ACD /* Switch.swift */,
 				C286FB7A1DFF87A500DF1ACD /* Clap.swift */,
+				C286FB801DFFBDBA00DF1ACD /* TurnLeft.swift */,
 				D35DCD341DFC96FC00CE4982 /* Button.swift */,
+				C286FB7E1DFFA9C600DF1ACD /* Beep.swift */,
+				C286FB821DFFC4D700DF1ACD /* TurnRight.swift */,
+				C286FB7C1DFFA4F500DF1ACD /* FingerDown.swift */,
 				D367F1BF1DFF77AA0005B81B /* DoMath.swift */,
 				D33AECD71DFFB3F50063D242 /* PinchScreen.swift */,
 				C21311031DFF09B70093C827 /* Swipe.swift */,
@@ -390,17 +402,21 @@
 				D33AECD81DFFB3F50063D242 /* PinchScreen.swift in Sources */,
 				D367F1C21DFFA4B30005B81B /* FindNorth.swift in Sources */,
 				C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */,
+				C286FB7D1DFFA4F500DF1ACD /* FingerDown.swift in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
 				D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */,
 				C21311041DFF09B70093C827 /* Swipe.swift in Sources */,
+				C286FB7F1DFFA9C600DF1ACD /* Beep.swift in Sources */,
 				C231985B1DFF47C700EC3EEE /* Walk.swift in Sources */,
 				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
 				D35DCD541DFC9CCD00CE4982 /* CubicSpline.m in Sources */,
 				C286FB7B1DFF87A500DF1ACD /* Clap.swift in Sources */,
 				D35DCD501DFC9CCD00CE4982 /* AudioFileReader.m in Sources */,
+				C286FB811DFFBDBA00DF1ACD /* TurnLeft.swift in Sources */,
 				D35DCD551DFC9CCD00CE4982 /* DataBufferBlock.m in Sources */,
 				D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */,
 				C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */,
+				C286FB831DFFC4D700DF1ACD /* TurnRight.swift in Sources */,
 				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
 				D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */,
 				C2E5354C1DFE467D003F749A /* Slide.swift in Sources */,
