@@ -9,7 +9,7 @@ class Swipe: Task {
     @IBOutlet var swipeLabel: UILabel!
     
     override func setupTask() {
-        maxSwipes = Int(arc4random_uniform(5)) + 1
+        maxSwipes = randomInt(min: 1, max: 5)
         
         for _ in 0  ..< maxSwipes {
             randomDirections.append(Int(arc4random_uniform(3)) + 1)

@@ -9,8 +9,17 @@
 import Foundation
 
 class  TaskManager {
-//    static let taskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Walk", "Shake", "Clap", "Switch"]
-    static let taskNames = ["TiltRight"]
+
+
+//    static let taskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Walk", "Shake", "Switch", "DoMath", "DifferentShade", "Clap", "PinchScreen", "FindAFriend", "FindNorth", "FingerDown", "Beep", "TurnLeft", "TurnRight"]
+    
+    //Here for testing purposes
+    static let prestonTaskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Walk", "Shake", "Switch", "Clap", "FingerDown", "Beep", "TurnLeft", "TurnRight"]
+    static let jennTaskNames = ["DoMath", "DifferentShade", "FindNorth", "PinchScreen", "FindAFriend"]
+    
+    //Change this to the task you are testing
+    static let taskNames = ["TurnLeft", "TurnRight"]
+    
     static var totalTasksDone = 0
     static var runMode = "count"
     static var countModeMaxTasks = 3

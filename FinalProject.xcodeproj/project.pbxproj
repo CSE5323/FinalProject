@@ -19,6 +19,11 @@
 		C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB691DFF574E00DF1ACD /* Shake.swift */; };
 		C286FB751DFF727600DF1ACD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C286FB741DFF727600DF1ACD /* Podfile */; };
 		C286FB791DFF752F00DF1ACD /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB781DFF752F00DF1ACD /* Switch.swift */; };
+		C286FB7B1DFF87A500DF1ACD /* Clap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB7A1DFF87A500DF1ACD /* Clap.swift */; };
+		C286FB7D1DFFA4F500DF1ACD /* FingerDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB7C1DFFA4F500DF1ACD /* FingerDown.swift */; };
+		C286FB7F1DFFA9C600DF1ACD /* Beep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB7E1DFFA9C600DF1ACD /* Beep.swift */; };
+		C286FB811DFFBDBA00DF1ACD /* TurnLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB801DFFBDBA00DF1ACD /* TurnLeft.swift */; };
+		C286FB831DFFC4D700DF1ACD /* TurnRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286FB821DFFC4D700DF1ACD /* TurnRight.swift */; };
 		C2E5354C1DFE467D003F749A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5354B1DFE467D003F749A /* Slide.swift */; };
 		D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */; };
 		D30D5CC51DE51AFD00D2D13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D5CC41DE51AFD00D2D13F /* AppDelegate.swift */; };
@@ -26,6 +31,8 @@
 		D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CC81DE51AFD00D2D13F /* Main.storyboard */; };
 		D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */; };
 		D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D5CCD1DE51AFD00D2D13F /* LaunchScreen.storyboard */; };
+		D33AECD81DFFB3F50063D242 /* PinchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33AECD71DFFB3F50063D242 /* PinchScreen.swift */; };
+		D33AECDC1DFFCCA00063D242 /* FindAFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */; };
 		D35DCD351DFC96FC00CE4982 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD341DFC96FC00CE4982 /* Button.swift */; };
 		D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD361DFC974300CE4982 /* FlatSurface.swift */; };
 		D35DCD4F1DFC9CCD00CE4982 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D35DCD3B1DFC9CCD00CE4982 /* .gitignore */; };
@@ -40,6 +47,7 @@
 		D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */; };
 		D35DCD591DFC9CCD00CE4982 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4E1DFC9CCD00CE4982 /* README.md */; };
 		D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367F1BF1DFF77AA0005B81B /* DoMath.swift */; };
+		D367F1C21DFFA4B30005B81B /* FindNorth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367F1C11DFFA4B30005B81B /* FindNorth.swift */; };
 		D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B371AE1DEDDD280015CE05 /* Task.swift */; };
 		FAAB41BC1DFF9F2400C7FDBF /* RunInPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */; };
 		FAAB41BE1DFFBD5200C7FDBF /* TiltRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BD1DFFBD5200C7FDBF /* TiltRight.swift */; };
@@ -66,6 +74,11 @@
 		C286FB701DFF683F00DF1ACD /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		C286FB741DFF727600DF1ACD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		C286FB781DFF752F00DF1ACD /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		C286FB7A1DFF87A500DF1ACD /* Clap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clap.swift; sourceTree = "<group>"; };
+		C286FB7C1DFFA4F500DF1ACD /* FingerDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FingerDown.swift; sourceTree = "<group>"; };
+		C286FB7E1DFFA9C600DF1ACD /* Beep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beep.swift; sourceTree = "<group>"; };
+		C286FB801DFFBDBA00DF1ACD /* TurnLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnLeft.swift; sourceTree = "<group>"; };
+		C286FB821DFFC4D700DF1ACD /* TurnRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnRight.swift; sourceTree = "<group>"; };
 		C2ADBDFC1DFF2D0300A536CD /* ImageBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBridgingHeader.h; path = ImageDSPUtils/ImageBridgingHeader.h; sourceTree = "<group>"; };
 		C2E5354B1DFE467D003F749A /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentShade.swift; sourceTree = "<group>"; };
@@ -84,6 +97,8 @@
 		D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30D5CCE1DE51AFD00D2D13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30D5CD01DE51AFD00D2D13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33AECD71DFFB3F50063D242 /* PinchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchScreen.swift; sourceTree = "<group>"; };
+		D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindAFriend.swift; sourceTree = "<group>"; };
 		D35DCD341DFC96FC00CE4982 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		D35DCD361DFC974300CE4982 /* FlatSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatSurface.swift; sourceTree = "<group>"; };
 		D35DCD3B1DFC9CCD00CE4982 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -108,6 +123,7 @@
 		D35DCD4E1DFC9CCD00CE4982 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D35DCD5A1DFC9D2D00CE4982 /* AudioFileReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileReader-Bridging-Header.h"; sourceTree = "<group>"; };
 		D367F1BF1DFF77AA0005B81B /* DoMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoMath.swift; sourceTree = "<group>"; };
+		D367F1C11DFFA4B30005B81B /* FindNorth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindNorth.swift; sourceTree = "<group>"; };
 		D3B371AE1DEDDD280015CE05 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunInPlace.swift; sourceTree = "<group>"; };
 		FAAB41BD1DFFBD5200C7FDBF /* TiltRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltRight.swift; sourceTree = "<group>"; };
@@ -198,8 +214,14 @@
 			isa = PBXGroup;
 			children = (
 				C286FB781DFF752F00DF1ACD /* Switch.swift */,
+				C286FB7A1DFF87A500DF1ACD /* Clap.swift */,
+				C286FB801DFFBDBA00DF1ACD /* TurnLeft.swift */,
 				D35DCD341DFC96FC00CE4982 /* Button.swift */,
+				C286FB7E1DFFA9C600DF1ACD /* Beep.swift */,
+				C286FB821DFFC4D700DF1ACD /* TurnRight.swift */,
+				C286FB7C1DFFA4F500DF1ACD /* FingerDown.swift */,
 				D367F1BF1DFF77AA0005B81B /* DoMath.swift */,
+				D33AECD71DFFB3F50063D242 /* PinchScreen.swift */,
 				C21311031DFF09B70093C827 /* Swipe.swift */,
 				D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */,
 				D3B371AE1DEDDD280015CE05 /* Task.swift */,
@@ -208,9 +230,13 @@
 				D35DCD361DFC974300CE4982 /* FlatSurface.swift */,
 				C278074A1DFF24A7002E58DE /* HandOverCamera.swift */,
 				C231985A1DFF47C700EC3EEE /* Walk.swift */,
+
 				FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */,
 				FAAB41BD1DFFBD5200C7FDBF /* TiltRight.swift */,
 				FAAB41BF1DFFE33800C7FDBF /* TiltLeft.swift */,
+
+				D367F1C11DFFA4B30005B81B /* FindNorth.swift */,
+				D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */,
 			);
 			name = Tasks;
 			sourceTree = "<group>";
@@ -288,7 +314,8 @@
 				TargetAttributes = {
 					D30D5CC01DE51AFD00D2D13F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = EGT4N6FS8J;
+
+						DevelopmentTeam = F69WJ27LN4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -383,18 +410,25 @@
 				FAAB41BC1DFF9F2400C7FDBF /* RunInPlace.swift in Sources */,
 				C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */,
 				C286FB6A1DFF574E00DF1ACD /* Shake.swift in Sources */,
+				D33AECD81DFFB3F50063D242 /* PinchScreen.swift in Sources */,
+				D367F1C21DFFA4B30005B81B /* FindNorth.swift in Sources */,
 				C27807521DFF2717002E58DE /* OpenCVBridge.mm in Sources */,
+				C286FB7D1DFFA4F500DF1ACD /* FingerDown.swift in Sources */,
 				D35DCD531DFC9CCD00CE4982 /* CircularBuffer.m in Sources */,
 				FAAB41BE1DFFBD5200C7FDBF /* TiltRight.swift in Sources */,
 				D30623391DFF5B3B00DD1A5D /* DifferentShade.swift in Sources */,
 				C21311041DFF09B70093C827 /* Swipe.swift in Sources */,
+				C286FB7F1DFFA9C600DF1ACD /* Beep.swift in Sources */,
 				C231985B1DFF47C700EC3EEE /* Walk.swift in Sources */,
 				D35DCD561DFC9CCD00CE4982 /* FFTHelper.m in Sources */,
 				D35DCD541DFC9CCD00CE4982 /* CubicSpline.m in Sources */,
+				C286FB7B1DFF87A500DF1ACD /* Clap.swift in Sources */,
 				D35DCD501DFC9CCD00CE4982 /* AudioFileReader.m in Sources */,
+				C286FB811DFFBDBA00DF1ACD /* TurnLeft.swift in Sources */,
 				D35DCD551DFC9CCD00CE4982 /* DataBufferBlock.m in Sources */,
 				D35DCD371DFC974300CE4982 /* FlatSurface.swift in Sources */,
 				C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */,
+				C286FB831DFFC4D700DF1ACD /* TurnRight.swift in Sources */,
 				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
 				D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */,
 				FAAB41C01DFFE33800C7FDBF /* TiltLeft.swift in Sources */,
@@ -403,6 +437,7 @@
 				D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */,
 				D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */,
 				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
+				D33AECDC1DFFCCA00063D242 /* FindAFriend.swift in Sources */,
 				D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */,
 				C27807531DFF2717002E58DE /* VideoAnalgesic.swift in Sources */,
 				C286FB791DFF752F00DF1ACD /* Switch.swift in Sources */,
@@ -531,13 +566,15 @@
 			baseConfigurationReference = B2A3A1E0AD4170ED8FC770F5 /* Pods-FinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EGT4N6FS8J;
+
+				DEVELOPMENT_TEAM = F69WJ27LN4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageDSPUtils",
 				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exaomple.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,13 +588,15 @@
 			baseConfigurationReference = 45223E988CB8083B483952D5 /* Pods-FinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EGT4N6FS8J;
+
+				DEVELOPMENT_TEAM = F69WJ27LN4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageDSPUtils",
 				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exaomple.SpeedR;
 				PRODUCT_NAME = "$(TARGET_NAME)";

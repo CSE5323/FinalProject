@@ -18,11 +18,15 @@ extension UIViewController {
         self.present(controller, animated: true, completion: nil)
     }
 }
+
 extension NSObject {
     class func fromClassName(className : String) -> NSObject {
         let className = Bundle.main.infoDictionary!["CFBundleName"] as! String + "." + className
         let aClass = NSClassFromString(className) as! UIViewController.Type
         return aClass.init()
+    }
+    func randomInt(min: Int, max:Int) -> Int {
+        return min + Int(arc4random_uniform(UInt32(max - min + 1)))
     }
 }
 extension Double {
