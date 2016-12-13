@@ -9,8 +9,8 @@
 import Foundation
 
 class  TaskManager {
-//    static let taskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Walk", "Shake"]
-    static let taskNames = ["Shake"]
+//    static let taskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Walk", "Shake", "Clap", "Switch"]
+    static let taskNames = ["Switch"]
     static var totalTasksDone = 0
     static var runMode = "count"
     static var countModeMaxTasks = 3
