@@ -38,6 +38,7 @@
 		D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4B1DFC9CCD00CE4982 /* Novocaine.m */; };
 		D35DCD581DFC9CCD00CE4982 /* PeakFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */; };
 		D35DCD591DFC9CCD00CE4982 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D35DCD4E1DFC9CCD00CE4982 /* README.md */; };
+		D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367F1BF1DFF77AA0005B81B /* DoMath.swift */; };
 		D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B371AE1DEDDD280015CE05 /* Task.swift */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +96,7 @@
 		D35DCD4D1DFC9CCD00CE4982 /* PeakFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeakFinder.m; sourceTree = "<group>"; };
 		D35DCD4E1DFC9CCD00CE4982 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D35DCD5A1DFC9D2D00CE4982 /* AudioFileReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioFileReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		D367F1BF1DFF77AA0005B81B /* DoMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoMath.swift; sourceTree = "<group>"; };
 		D3B371AE1DEDDD280015CE05 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				D35DCD341DFC96FC00CE4982 /* Button.swift */,
+				D367F1BF1DFF77AA0005B81B /* DoMath.swift */,
 				C21311031DFF09B70093C827 /* Swipe.swift */,
 				D30623381DFF5B3B00DD1A5D /* DifferentShade.swift */,
 				D3B371AE1DEDDD280015CE05 /* Task.swift */,
@@ -303,6 +306,7 @@
 				C2E5354C1DFE467D003F749A /* Slide.swift in Sources */,
 				C278074B1DFF24A7002E58DE /* HandOverCamera.swift in Sources */,
 				D35DCD511DFC9CCD00CE4982 /* AudioFileWriter.m in Sources */,
+				D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */,
 				D35DCD391DFC976C00CE4982 /* SnapFingers.swift in Sources */,
 				D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */,
 				D35DCD571DFC9CCD00CE4982 /* Novocaine.m in Sources */,

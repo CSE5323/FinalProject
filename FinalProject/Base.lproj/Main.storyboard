@@ -518,6 +518,96 @@
             </objects>
             <point key="canvasLocation" x="845.60000000000002" y="862.21889055472275"/>
         </scene>
+        <!--Do Math-->
+        <scene sceneID="Z1e-oF-bmZ">
+            <objects>
+                <viewController id="Q72-Cm-Cm0" customClass="DoMath" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hfJ-zF-pwq"/>
+                        <viewControllerLayoutGuide type="bottom" id="IqN-9R-s6D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XN5-3b-5jV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solve a simple math problem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8N-I6-6bz" customClass="Diff">
+                                <rect key="frame" x="16" y="28" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Vty-sW-N7h">
+                                <rect key="frame" x="106" y="191.5" width="81" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jiy-ZW-aur" userLabel="op1">
+                                        <rect key="frame" x="0.0" y="0.0" width="15" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" +" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxE-tQ-ZWT" userLabel="operator">
+                                        <rect key="frame" x="19" y="0.0" width="15.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woG-kC-V9f" userLabel="op2">
+                                        <rect key="frame" x="38.5" y="0.0" width="15" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfO-WA-IvH">
+                                        <rect key="frame" x="57.5" y="0.0" width="11" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aey-Id-27Y">
+                                        <rect key="frame" x="72.5" y="0.0" width="8.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Du-Eg-x8X">
+                                <rect key="frame" x="137" y="220" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="t8N-I6-6bz" firstAttribute="top" secondItem="hfJ-zF-pwq" secondAttribute="bottom" constant="8" symbolic="YES" id="258-is-aj6"/>
+                            <constraint firstItem="t8N-I6-6bz" firstAttribute="leading" secondItem="XN5-3b-5jV" secondAttribute="leadingMargin" id="9Ci-hW-Twm"/>
+                            <constraint firstItem="t8N-I6-6bz" firstAttribute="centerX" secondItem="Vty-sW-N7h" secondAttribute="centerX" constant="41" id="Fp6-6k-1F2"/>
+                            <constraint firstItem="IqN-9R-s6D" firstAttribute="top" secondItem="Vty-sW-N7h" secondAttribute="bottom" constant="455" id="SVn-gw-qdQ"/>
+                            <constraint firstItem="t8N-I6-6bz" firstAttribute="trailing" secondItem="XN5-3b-5jV" secondAttribute="trailingMargin" id="uy3-O4-pTa"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="y9A-CV-BFg" appends="YES" id="2jl-aE-Afu"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="op1" destination="Jiy-ZW-aur" id="2Cr-2z-ae9"/>
+                        <outlet property="op2" destination="woG-kC-V9f" id="MfD-cg-ddS"/>
+                        <outlet property="symbol" destination="WxE-tQ-ZWT" id="jZW-cv-2ky"/>
+                        <outlet property="textField" destination="8Du-Eg-x8X" id="epy-js-Wo4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kTa-E6-zzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="y9A-CV-BFg">
+                    <connections>
+                        <action selector="viewTapped:" destination="Q72-Cm-Cm0" id="599-ET-rYf"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1536.8" y="861.3193403298352"/>
+        </scene>
         <!--Button-->
         <scene sceneID="wKW-HH-UsV">
             <objects>
