@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  MicrophoneAnalysis
-//
-//  Created by Kanstantsin Linou on 6/9/16.
-//  Copyright © 2016 AudioKit. All rights reserved.
-//
-
 import UIKit
 import AudioKit
 
