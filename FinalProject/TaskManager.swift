@@ -17,7 +17,7 @@ class  TaskManager {
     static let jennTaskNames = ["DoMath", "DifferentShade", "FindNorth", "PinchScreen", "FindAFriend"]
     
     //Change this to the task you are testing
-    static let taskNames = ["Rotate"]
+    static let taskNames = ["PinchScreen"]
     
     static var totalTasksDone = 0
     static var runMode = "count"

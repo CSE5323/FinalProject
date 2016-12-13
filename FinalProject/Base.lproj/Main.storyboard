@@ -1517,14 +1517,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="label" destination="ORY-Ck-wCS" id="scR-vA-bbi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PCd-Ai-ndB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <rotationGestureRecognizer id="bO4-HB-0Zi">
                     <connections>
-                        <action selector="handleRotateWithRecognizer:" destination="0P6-vx-tAp" id="MBQ-ra-69Z"/>
+                        <action selector="handleRotate:" destination="0P6-vx-tAp" id="uVy-6d-nFk"/>
                     </connections>
                 </rotationGestureRecognizer>
             </objects>
