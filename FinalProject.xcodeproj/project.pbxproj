@@ -52,6 +52,7 @@
 		D3F178DE1E01041200F8A724 /* FindSouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F178DD1E01041200F8A724 /* FindSouth.swift */; };
 		D3F178E01E0104C400F8A724 /* FindEast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F178DF1E0104C400F8A724 /* FindEast.swift */; };
 		D3F178E21E0105A200F8A724 /* FindWest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F178E11E0105A200F8A724 /* FindWest.swift */; };
+		D3F178E61E011AE000F8A724 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F178E51E011AE000F8A724 /* Launch Screen.storyboard */; };
 		FAAB41BC1DFF9F2400C7FDBF /* RunInPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */; };
 		FAAB41BE1DFFBD5200C7FDBF /* TiltForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BD1DFFBD5200C7FDBF /* TiltForward.swift */; };
 		FAAB41C01DFFE33800C7FDBF /* TiltBackward.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */; };
@@ -131,6 +132,7 @@
 		D3F178DD1E01041200F8A724 /* FindSouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindSouth.swift; sourceTree = "<group>"; };
 		D3F178DF1E0104C400F8A724 /* FindEast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindEast.swift; sourceTree = "<group>"; };
 		D3F178E11E0105A200F8A724 /* FindWest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindWest.swift; sourceTree = "<group>"; };
+		D3F178E51E011AE000F8A724 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunInPlace.swift; sourceTree = "<group>"; };
 		FAAB41BD1DFFBD5200C7FDBF /* TiltForward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltForward.swift; sourceTree = "<group>"; };
 		FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltBackward.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				D30D5CC61DE51AFD00D2D13F /* MenuController.swift */,
 				C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */,
 				D30D5CC81DE51AFD00D2D13F /* Main.storyboard */,
+				D3F178E51E011AE000F8A724 /* Launch Screen.storyboard */,
 				C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */,
 				D35DCD331DFC909200CE4982 /* Tasks */,
 				D30D5CCB1DE51AFD00D2D13F /* Assets.xcassets */,
@@ -321,7 +324,7 @@
 				TargetAttributes = {
 					D30D5CC01DE51AFD00D2D13F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6B83F7C8RZ;
+						DevelopmentTeam = F69WJ27LN4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -355,6 +358,7 @@
 				D30D5CCF1DE51AFD00D2D13F /* LaunchScreen.storyboard in Resources */,
 				D30D5CCC1DE51AFD00D2D13F /* Assets.xcassets in Resources */,
 				D30D5CCA1DE51AFD00D2D13F /* Main.storyboard in Resources */,
+				D3F178E61E011AE000F8A724 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +579,7 @@
 			baseConfigurationReference = B2A3A1E0AD4170ED8FC770F5 /* Pods-FinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6B83F7C8RZ;
+				DEVELOPMENT_TEAM = F69WJ27LN4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,7 +600,7 @@
 			baseConfigurationReference = 45223E988CB8083B483952D5 /* Pods-FinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6B83F7C8RZ;
+				DEVELOPMENT_TEAM = F69WJ27LN4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
