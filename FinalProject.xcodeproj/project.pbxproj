@@ -49,6 +49,7 @@
 		D367F1C01DFF77AA0005B81B /* DoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367F1BF1DFF77AA0005B81B /* DoMath.swift */; };
 		D367F1C21DFFA4B30005B81B /* FindNorth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367F1C11DFFA4B30005B81B /* FindNorth.swift */; };
 		D3B371AF1DEDDD280015CE05 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B371AE1DEDDD280015CE05 /* Task.swift */; };
+		D3F178DE1E01041200F8A724 /* FindSouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F178DD1E01041200F8A724 /* FindSouth.swift */; };
 		FAAB41BC1DFF9F2400C7FDBF /* RunInPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */; };
 		FAAB41BE1DFFBD5200C7FDBF /* TiltForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BD1DFFBD5200C7FDBF /* TiltForward.swift */; };
 		FAAB41C01DFFE33800C7FDBF /* TiltBackward.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */; };
@@ -125,6 +126,7 @@
 		D367F1BF1DFF77AA0005B81B /* DoMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoMath.swift; sourceTree = "<group>"; };
 		D367F1C11DFFA4B30005B81B /* FindNorth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindNorth.swift; sourceTree = "<group>"; };
 		D3B371AE1DEDDD280015CE05 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D3F178DD1E01041200F8A724 /* FindSouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindSouth.swift; sourceTree = "<group>"; };
 		FAAB41BB1DFF9F2400C7FDBF /* RunInPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunInPlace.swift; sourceTree = "<group>"; };
 		FAAB41BD1DFFBD5200C7FDBF /* TiltForward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltForward.swift; sourceTree = "<group>"; };
 		FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltBackward.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				FAAB41BD1DFFBD5200C7FDBF /* TiltForward.swift */,
 				FAAB41BF1DFFE33800C7FDBF /* TiltBackward.swift */,
 				D367F1C11DFFA4B30005B81B /* FindNorth.swift */,
+				D3F178DD1E01041200F8A724 /* FindSouth.swift */,
 				D33AECDB1DFFCCA00063D242 /* FindAFriend.swift */,
 			);
 			name = Tasks;
@@ -427,6 +430,7 @@
 				C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */,
 				C286FB831DFFC4D700DF1ACD /* TurnRight.swift in Sources */,
 				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
+				D3F178DE1E01041200F8A724 /* FindSouth.swift in Sources */,
 				D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */,
 				FAAB41C01DFFE33800C7FDBF /* TiltBackward.swift in Sources */,
 				C2E5354C1DFE467D003F749A /* Slide.swift in Sources */,
