@@ -19,7 +19,8 @@ class TaskManager {
     static let moveTaskNames = ["Walk", "RunInPlace"]
     
     //Change this to the task you are testing, else blank will add all the tasks together
-    static var taskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Shake", "Switch", "Clap", "FingerDown", "Beep", "TurnLeft", "TurnRight","DoMath", "DifferentShade", "PinchScreen", "FindAFriend", "FindNorth", "FindEast", "FindSouth", "FindWest","TiltForward", "TiltBackward"]
+    static var taskNames = ["FindNorth", "FindEast", "FindSouth", "FindWest","Button"]
+//    static var taskNames = ["PinchScreen"]
     
     static var testMode = false
     static var totalTasksDone = 0

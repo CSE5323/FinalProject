@@ -25,7 +25,8 @@ class FindWest: Task, CLLocationManagerDelegate {
     }
     
     func locationManager(_: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        if newHeading.trueHeading < 275 || newHeading.trueHeading > 265 {
+        print("Heading: " + String(newHeading.trueHeading))
+        if newHeading.trueHeading < 275 && newHeading.trueHeading > 265 {
             self.location.stopUpdatingHeading()
             print("<<< FindWest")
             doneTask()

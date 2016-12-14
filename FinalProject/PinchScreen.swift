@@ -15,7 +15,7 @@ class PinchScreen: Task {
         isDone = false
     }
     
-    @IBAction func pinchedMonkey(_ sender: UIPinchGestureRecognizer) {
+    @IBAction func pinchedMonkey(_ sender:UIPinchGestureRecognizer) {
         
         if(!isDone){
             print("<<< PinchScreen")

@@ -474,63 +474,6 @@
             </objects>
             <point key="canvasLocation" x="3617" y="860"/>
         </scene>
-        <!--Pinch Screen-->
-        <scene sceneID="uA9-m3-pnQ">
-            <objects>
-                <viewController storyboardIdentifier="PinchScreen" id="Mop-Bd-aqX" customClass="PinchScreen" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Q1B-Du-ycP"/>
-                        <viewControllerLayoutGuide type="bottom" id="gD0-d7-SpP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YZ7-Qc-pQt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey11" translatesAutoresizingMaskIntoConstraints="NO" id="UqN-Cv-gjm">
-                                <rect key="frame" x="88" y="317" width="199" height="293"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="293" id="Knq-z8-3e2"/>
-                                    <constraint firstAttribute="width" constant="199" id="Vzy-mw-gcE"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auw-wz-eUn">
-                                <rect key="frame" x="88" y="187" width="200" height="66"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Hsi-yg-ZqG"/>
-                                    <constraint firstAttribute="height" constant="66" id="b07-Me-cnt"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Pinch Me">
-                                        <attributes>
-                                            <color key="NSColor" red="0.2196078431372549" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="42" name="HelveticaNeue-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="auw-wz-eUn" firstAttribute="top" secondItem="Q1B-Du-ycP" secondAttribute="bottom" constant="167" id="0Ga-Xn-GGZ"/>
-                            <constraint firstItem="UqN-Cv-gjm" firstAttribute="top" secondItem="Q1B-Du-ycP" secondAttribute="bottom" constant="297" id="Kls-GK-qIW"/>
-                            <constraint firstItem="UqN-Cv-gjm" firstAttribute="centerX" secondItem="YZ7-Qc-pQt" secondAttribute="centerX" id="u9y-yp-bBq"/>
-                            <constraint firstItem="auw-wz-eUn" firstAttribute="centerX" secondItem="YZ7-Qc-pQt" secondAttribute="centerX" id="uEJ-uO-n3I"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PD5-oX-IsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pinchGestureRecognizer id="dLR-H6-ZhI">
-                    <connections>
-                        <action selector="pinchedMonkey:" destination="Mop-Bd-aqX" id="gBH-bT-2T5"/>
-                    </connections>
-                </pinchGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="2257" y="860"/>
-        </scene>
         <!--Tilt Forward-->
         <scene sceneID="0yX-Hn-dsM">
             <objects>
@@ -2300,6 +2243,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="twz-Vv-6x3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="845.60000000000002" y="862.21889055472275"/>
+        </scene>
+        <!--Pinch Screen-->
+        <scene sceneID="etQ-pq-vlI">
+            <objects>
+                <viewController storyboardIdentifier="PinchScreen" id="YJV-ZV-Tk5" customClass="PinchScreen" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EHU-Y1-zo5"/>
+                        <viewControllerLayoutGuide type="bottom" id="T7J-oZ-ijW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wfy-Hj-QhR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey11" translatesAutoresizingMaskIntoConstraints="NO" id="6Cu-aB-hZG">
+                                <rect key="frame" x="58" y="262" width="259" height="381"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="frd-NV-7lE"/>
+                                    <constraint firstAttribute="height" constant="381" id="vC5-Vh-WuF"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2yq-3C-Jol">
+                                <rect key="frame" x="47" y="225" width="281" height="434"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="FVv-oT-xuq"/>
+                                    <constraint firstAttribute="height" constant="434" id="WOb-6X-QAk"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fKR-7V-QrD" appends="YES" id="hUW-0x-H1d"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bx3-Db-Vyh">
+                                <rect key="frame" x="70" y="151" width="235" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="CNO-4O-VC6"/>
+                                    <constraint firstAttribute="width" constant="235" id="XT9-jN-Hrf"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Pinch Me">
+                                        <attributes>
+                                            <color key="NSColor" red="0.2196078431372549" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="42" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Cu-aB-hZG" firstAttribute="top" secondItem="EHU-Y1-zo5" secondAttribute="bottom" constant="242" id="0l5-E2-vBL"/>
+                            <constraint firstItem="bx3-Db-Vyh" firstAttribute="centerX" secondItem="wfy-Hj-QhR" secondAttribute="centerX" id="7Sg-Pa-ibJ"/>
+                            <constraint firstItem="2yq-3C-Jol" firstAttribute="top" secondItem="EHU-Y1-zo5" secondAttribute="bottom" constant="205" id="YZc-O2-BGs"/>
+                            <constraint firstItem="6Cu-aB-hZG" firstAttribute="centerX" secondItem="wfy-Hj-QhR" secondAttribute="centerX" id="cYU-vI-B32"/>
+                            <constraint firstItem="bx3-Db-Vyh" firstAttribute="top" secondItem="EHU-Y1-zo5" secondAttribute="bottom" constant="131" id="dep-vs-A8x"/>
+                            <constraint firstItem="2yq-3C-Jol" firstAttribute="centerX" secondItem="wfy-Hj-QhR" secondAttribute="centerX" id="sdF-f7-WSE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jNI-RI-DLO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="fKR-7V-QrD">
+                    <connections>
+                        <action selector="pinchedMonkey:" destination="YJV-ZV-Tk5" id="YUl-wR-XDu"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2257" y="860"/>
         </scene>
     </scenes>
     <resources>

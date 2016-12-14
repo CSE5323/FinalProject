@@ -25,7 +25,8 @@ class FindSouth: Task, CLLocationManagerDelegate {
     }
     
     func locationManager(_: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        if newHeading.trueHeading > 175 || newHeading.trueHeading < 185 {
+        print("Heading: " + String(newHeading.trueHeading))
+        if newHeading.trueHeading > 175 && newHeading.trueHeading < 185 {
             self.location.stopUpdatingHeading()
             print("<<< FindEast")
             doneTask()
