@@ -24,9 +24,12 @@ class DoMath: Task, UITextFieldDelegate {
         
         textField.delegate = self
         let (one, sym, two) = generateProblem()
-        op1.text = String(one)
-        symbol.text = sym
-        op2.text = String(two)
+        DispatchQueue.main.async {
+            self.op1.text = String(one)
+            self.symbol.text = sym
+            self.op2.text = String(two)
+        }
+        
         
         switch sym {
         case "+":

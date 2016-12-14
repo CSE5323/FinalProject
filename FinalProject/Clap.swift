@@ -53,7 +53,10 @@ class Clap: Task {
         }
         
         if(maxClaps - currentClapsDone >= 0){
-           instructionLabel.text = "Clap " + String(maxClaps - currentClapsDone) + " times"
+            DispatchQueue.main.async {
+                self.instructionLabel.text = "Clap " + String(self.maxClaps - self.currentClapsDone) + " times"
+            }
+           
         }
         
     }

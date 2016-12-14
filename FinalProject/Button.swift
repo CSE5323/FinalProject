@@ -12,7 +12,10 @@ class Button: Task {
         print("Button  >>>")
         currentClicks = 0
         maxClicks = randomInt(min: 1, max: 5)
-        instructionLabel.text = "Click " + String(maxClicks) + " times"
+        DispatchQueue.main.async {
+            self.instructionLabel.text = "Click " + String(self.maxClicks) + " times"
+        }
+        
         button.setTitle(" ", for: .normal)
         button.setTitle("", for: .normal)
     }
