@@ -13,12 +13,13 @@ class HandOverCamera: Task   {
     //MARK: Outlets in view
     @IBOutlet weak var stageLabel: UILabel!
     @IBOutlet weak var toggleCameraButton: UIButton!
+    var isDone = false
     
     //MARK: ViewController Hierarchy
     override func setupTask() {
         print("HandOverCamera >>>")
         
-        
+        isDone = false
         self.view.backgroundColor = nil
         
         self.videoManager = VideoAnalgesic.sharedInstance
@@ -47,10 +48,18 @@ class HandOverCamera: Task   {
         let hasPalm = self.bridge.processImage()
         retImage = self.bridge.getImageComposite() // get back opencv processed part of the image (overlayed on original)
         
-        if(hasPalm){
-            self.videoManager.stop()
-            print("<<< HandOverCamera")
-            doneTask()
+        if(hasPalm && !isDone){
+            isDone = true
+            DispatchQueue.global(qos: .background).async {
+                self.videoManager.shutdown()
+                self.videoManager = nil
+            }
+            
+            DispatchQueue.main.async {
+                print("<<< HandOverCamera")
+                self.doneTask()
+            }
+            
         }
         
         return retImage

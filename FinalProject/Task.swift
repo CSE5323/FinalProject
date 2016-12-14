@@ -2,13 +2,12 @@ import Foundation
 import UIKit
 
 class Task: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         setupTask()
     }
     
     func setupTask() {
-        print("Task >>>")
     }
     
     func doneTask() {
@@ -20,11 +19,10 @@ class Task: UIViewController {
         }else{
             self.newTask()
         }
-//        print("<<< Task")
     }
     func doneRun(){
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "SpeedRunComplete")
-        self.present(controller, animated: true, completion: nil)
+        self.present(controller, animated: false, completion: nil)
     }
 }

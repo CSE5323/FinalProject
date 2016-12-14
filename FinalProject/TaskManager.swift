@@ -19,13 +19,13 @@ class TaskManager {
     static let moveTaskNames = ["Walk", "RunInPlace"]
     
     //Change this to the task you are testing, else blank will add all the tasks together
-    static var taskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Shake", "Switch", "Clap", "FingerDown", "Beep", "TurnLeft", "TurnRight","DoMath", "DifferentShade", "PinchScreen", "FindAFriend", "FindNorth", "FindEast", "FindSouth", "FindWest","TiltForward", "TiltBackward"]
+    static var taskNames = ["HandOverCamera", "TurnRight", "Button"]
 //    static var taskNames = ["PinchScreen"]
     
     static var testMode = false
     static var totalTasksDone = 0
     static var runMode = "count"
-    static var randomModeMaxTasks = 3
+    static var randomModeMaxTasks = 20
     static var canDoMoveTasks = true
     static var startTime = NSDate()
     static var endTime = NSDate()
@@ -52,6 +52,6 @@ class TaskManager {
         }
         
         //Randomize the task names
-        TaskManager.taskNames = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: TaskManager.taskNames) as! [String]
+//        TaskManager.taskNames = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: TaskManager.taskNames) as! [String]
     }
 }

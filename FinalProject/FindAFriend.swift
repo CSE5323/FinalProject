@@ -15,12 +15,16 @@ class FindAFriend: Task {
     var videoManager:VideoAnalgesic! = nil
     var detector:CIDetector! = nil
     
+    var isDone = false
+    
     //MARK: ViewController Hierarchy
     override func setupTask() {
         print("FindAFriend >>>")
         
         self.view.backgroundColor = nil
         cameraView.backgroundColor = nil
+        
+        isDone = false
         
         self.videoManager = VideoAnalgesic.sharedInstance
         self.videoManager.setCameraPosition(AVCaptureDevicePosition.back)
@@ -60,13 +64,19 @@ class FindAFriend: Task {
         if f.count == 0 { return inputImage }
         
         //otherwise apply the filters to the faces
-        if(self.videoManager.isRunning){
-            self.videoManager.turnOffFlash()
-            self.videoManager.stop()
-            self.videoManager.shutdown()
+        if(self.videoManager.isRunning && !isDone){
+            isDone = true
+            DispatchQueue.global(qos: .background).async {
+                self.videoManager.shutdown()
+                self.videoManager = nil
+            }
+            
         }
-        print("<<< FindAFriend")
-        doneTask()
+        DispatchQueue.main.async {
+            print("<<< FindAFriend")
+            self.doneTask()
+        }
+        
         return inputImage
     }
 }

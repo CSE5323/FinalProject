@@ -1,5 +1,9 @@
 # SpeedR
 
+## TODO
+* change randomize tasks back
+* production mode
+
 ##Tasks
 
 * Button

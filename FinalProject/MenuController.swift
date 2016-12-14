@@ -23,7 +23,7 @@ extension UIViewController {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: taskName)
-        self.present(controller, animated: true, completion: nil)
+        self.present(controller, animated: false, completion: nil)
     }
 }
 
@@ -68,11 +68,6 @@ class MenuController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    func presentController(controllerName : String){
-        let nav = UINavigationController(rootViewController: NSObject.fromClassName(className: controllerName) as! UIViewController )
-        nav.navigationBar.isTranslucent = false
-        self.navigationController?.present(nav, animated: true, completion: nil)
     }
     @IBAction func startRandomTasks(_ sender: Any) {
         TaskManager.runMode = "random"
