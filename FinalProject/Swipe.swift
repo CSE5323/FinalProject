@@ -47,18 +47,18 @@ class Swipe: Task {
             
             switch randomDirections[i] {
                 case 0:
-                    directionStrings.append("up")
+                    directionStrings.append("Up")
                 case 1:
-                    directionStrings.append("right")
+                    directionStrings.append("Right")
                 case 2:
-                    directionStrings.append("down")
+                    directionStrings.append("Down")
                 case 3:
-                    directionStrings.append("left")
+                    directionStrings.append("Left")
                 default:
                     break
             }
         }
-        swipeLabel.text = "Swipe " + directionStrings.joined(separator: ",")
+        swipeLabel.text = directionStrings.joined(separator: ", ")
     }
     func respondToSwipeGesture(gesture: UIGestureRecognizer) {
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
