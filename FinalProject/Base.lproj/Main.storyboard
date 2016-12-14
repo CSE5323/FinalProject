@@ -22,18 +22,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 random tasks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEM-a1-FWo">
-                                <rect key="frame" x="105" y="346" width="165" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="1" green="0.62352941179999999" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All X tasks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lr0-Cx-7uQ">
                                 <rect key="frame" x="136" y="526" width="102" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" red="1" green="0.62352941179999999" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 random tasks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEM-a1-FWo">
+                                <rect key="frame" x="105" y="346" width="165" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.62352941179999999" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titleBG" translatesAutoresizingMaskIntoConstraints="NO" id="rw2-LG-ldP">
+                                <rect key="frame" x="0.0" y="14" width="375" height="639"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How fast are you at doing random tasks?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrW-rx-Xdz">
                                 <rect key="frame" x="32" y="282" width="311" height="42"/>
                                 <constraints>
@@ -94,12 +97,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Sz6-cr-2TM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="361" id="1bT-mV-6ZH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rw2-LG-ldP" secondAttribute="bottom" constant="14" id="3SV-ye-xoA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rw2-LG-ldP" secondAttribute="trailing" constant="-16" id="95s-tc-GJL"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vRe-wy-UEy" secondAttribute="bottom" constant="20" id="CCS-9I-an7"/>
                             <constraint firstItem="QAx-xa-iji" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="DMF-0U-eSL"/>
                             <constraint firstItem="lr0-Cx-7uQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GgW-f2-kVA"/>
+                            <constraint firstItem="rw2-LG-ldP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-6" id="Ptv-8A-VUE"/>
                             <constraint firstItem="t8i-Ra-hhB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="541" id="QZL-ha-VV3"/>
                             <constraint firstItem="vRe-wy-UEy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="TRc-Tl-Uqs"/>
                             <constraint firstItem="IrW-rx-Xdz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="262" id="YBK-wE-GhZ"/>
+                            <constraint firstItem="rw2-LG-ldP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="a45-bn-gWn"/>
                             <constraint firstItem="AEM-a1-FWo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dNG-T8-4gG"/>
                             <constraint firstItem="lr0-Cx-7uQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="506" id="hG1-ky-X4J"/>
                             <constraint firstItem="QAx-xa-iji" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hUD-uY-mmC"/>
@@ -1649,5 +1656,6 @@
         <image name="Monkey11" width="728" height="978"/>
         <image name="button" width="200" height="200"/>
         <image name="startlogo" width="579" height="296"/>
+        <image name="titleBG" width="621" height="1104"/>
     </resources>
 </document>
