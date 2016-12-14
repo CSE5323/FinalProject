@@ -12,12 +12,10 @@ import CoreLocation
 class FindSouth: Task, CLLocationManagerDelegate {
     
     var location:CLLocationManager!
-    var isDone = false
     
     override func setupTask() {
         print("FindSouth >>>")
         
-        isDone = false
         DispatchQueue.main.async {
             self.location = CLLocationManager()
             self.location.delegate = self

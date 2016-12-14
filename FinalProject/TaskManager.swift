@@ -13,7 +13,7 @@ class TaskManager {
     
     //Here for testing purposes
     static let prestonTaskNames = ["Button", "Slide", "Swipe", "FlatSurface", "HandOverCamera", "Shake", "Switch", "Clap", "FingerDown", "Beep", "TurnLeft", "TurnRight"]
-    static let jennTaskNames = ["DoMath", "DifferentShade", "FindNorth", "PinchScreen", "FindAFriend"]
+    static let jennTaskNames = ["DoMath", "DifferentShade", "PinchScreen", "FindAFriend", "FindNorth", "FindEast", "FindSouth", "FindWest"]
     static let ashleyTaskNames = ["TiltForward", "TiltBackward"]
     
     static let moveTaskNames = ["Walk", "RunInPlace"]
