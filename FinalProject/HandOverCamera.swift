@@ -16,6 +16,8 @@ class HandOverCamera: Task   {
     
     //MARK: ViewController Hierarchy
     override func setupTask() {
+        print("HandOverCamera >>>")
+        
         
         self.view.backgroundColor = nil
         
@@ -32,6 +34,7 @@ class HandOverCamera: Task   {
     
     //MARK: Process image output
     func processImage(_ inputImage:CIImage) -> CIImage{
+        print("processImage")
         
         
         var retImage = inputImage
@@ -39,15 +42,14 @@ class HandOverCamera: Task   {
         //HINT: you can also send in the bounds of the face to ONLY process the face in OpenCV
         // or any bounds to only process a certain bounding region in OpenCV
         self.bridge.setTransforms(self.videoManager.transform)
-        self.bridge.setImage(retImage,
-                             withBounds: retImage.extent, // the first face bounds
-            andContext: self.videoManager.getCIContext())
+        self.bridge.setImage(retImage, withBounds: retImage.extent, andContext: self.videoManager.getCIContext())
         
         let hasPalm = self.bridge.processImage()
         retImage = self.bridge.getImageComposite() // get back opencv processed part of the image (overlayed on original)
         
         if(hasPalm){
             self.videoManager.stop()
+            print("<<< HandOverCamera")
             doneTask()
         }
         

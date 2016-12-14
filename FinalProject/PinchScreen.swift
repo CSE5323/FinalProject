@@ -9,12 +9,18 @@
 import Foundation
 
 class PinchScreen: Task {
+    var isDone = false
     override func setupTask() {
-        
+        print("PinchScreen >>>")
+        isDone = false
     }
     
     @IBAction func pinchedMonkey(_ sender: UIPinchGestureRecognizer) {
-//        print("pinched monkey")
-        doneTask()
+        
+        if(!isDone){
+            print("<<< PinchScreen")
+            isDone = true
+            doneTask()
+        }
     }
 }

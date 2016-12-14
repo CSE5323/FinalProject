@@ -4,20 +4,27 @@ import UIKit
 class Button: Task {
     var maxClicks = 0
     var currentClicks = 0
-    @IBOutlet var button: UIButton!
     
+    @IBOutlet var button: UIButton!
+    @IBOutlet var instructionLabel: UILabel!
     
     override func setupTask() {
+        print("Button  >>>")
+        currentClicks = 0
         maxClicks = randomInt(min: 1, max: 5)
-        button.setTitle("Click me " + String(maxClicks) + " times", for: .normal)
+        instructionLabel.text = "Click " + String(maxClicks) + " times"
+        button.setTitle(" ", for: .normal)
+        button.setTitle("", for: .normal)
     }
     @IBAction func clickedButton(_ sender: Any) {
+        print("Clicked button")
         currentClicks += 1
         
         if(currentClicks == maxClicks){
+            print("<<< Button")
             doneTask()
         }else{
-            button.setTitle(String(maxClicks - currentClicks) + " more clicks", for: .normal)
+            instructionLabel.text = String(maxClicks - currentClicks) + " more clicks"
         }
         
     }

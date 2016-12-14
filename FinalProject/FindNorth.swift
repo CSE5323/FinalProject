@@ -12,21 +12,24 @@ import CoreLocation
 class FindNorth: Task, CLLocationManagerDelegate {
     
     var location:CLLocationManager!
+    var isDone = false
     
     override func setupTask() {
-        location = CLLocationManager()
-        location.delegate = self
+        print("FindNorth >>>")
         
-        location.startUpdatingHeading()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        isDone = false
+        DispatchQueue.main.async {
+            self.location = CLLocationManager()
+            self.location.delegate = self
+            
+            self.location.startUpdatingHeading()
+        }
     }
     
     func locationManager(_: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-//        print(newHeading.trueHeading)
         if abs(newHeading.trueHeading) < 5 {
+            self.location.stopUpdatingHeading()
+            print("<<< FindNorth")
             doneTask()
         }
     }

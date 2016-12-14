@@ -3,13 +3,15 @@ import UIKit
 
 class Swipe: Task {
     var maxSwipes = 0
-    var currentClicks = 0
     var randomDirections = [Int]()
     
     @IBOutlet var swipeLabel: UILabel!
     
     override func setupTask() {
+        print("Swipe >>>")
+        
         maxSwipes = randomInt(min: 1, max: 5)
+        randomDirections.removeAll()
         
         for _ in 0  ..< maxSwipes {
             randomDirections.append(Int(arc4random_uniform(3)) + 1)
@@ -86,6 +88,7 @@ class Swipe: Task {
             }
         }
         if(randomDirections.count == 0){
+            print("<<< Swipe")
             doneTask()
         }else{
             updateSwipeLabel()

@@ -15,13 +15,9 @@ class FindAFriend: Task {
     var videoManager:VideoAnalgesic! = nil
     var detector:CIDetector! = nil
     
-    override func setupTask() {
-        
-    }
-    
     //MARK: ViewController Hierarchy
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func setupTask() {
+        print("FindAFriend >>>")
         
         self.view.backgroundColor = nil
         cameraView.backgroundColor = nil
@@ -69,6 +65,7 @@ class FindAFriend: Task {
             self.videoManager.stop()
             self.videoManager.shutdown()
         }
+        print("<<< FindAFriend")
         doneTask()
         return inputImage
     }

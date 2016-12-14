@@ -23,6 +23,7 @@ class Clap: Task {
     }
     
     override func setupTask() {
+        print("Clap  >>>")
         currentClapsDone = 0
         maxClaps = randomInt(min: 1,max: 5)
         AKSettings.audioInputEnabled = true
@@ -41,16 +42,15 @@ class Clap: Task {
     }
     
     func updateUI() {
-        if(tracker.amplitude > 0.1){
+        if(tracker.amplitude > 0.15){
             currentClapsDone += 1
         }
         
         if(currentClapsDone == maxClaps){
             AudioKit.stop()
+            print("<<< Clap")
             doneTask()
         }
-        
-        amplitudeLabel.text = String(format: "%0.2f", tracker.amplitude)
         
         if(maxClaps - currentClapsDone >= 0){
            instructionLabel.text = "Clap " + String(maxClaps - currentClapsDone) + " times"

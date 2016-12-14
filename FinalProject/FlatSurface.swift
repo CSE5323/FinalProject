@@ -6,6 +6,8 @@ class FlatSurface: Task {
     var motionManager = CMMotionManager()
     @IBOutlet var flatSurfaceLabel: UILabel!
     override func setupTask() {
+        print("FlatSurface >>>")
+        
         motionManager.startAccelerometerUpdates()
         motionManager.accelerometerUpdateInterval = 0.1
         motionManager.startAccelerometerUpdates(to: OperationQueue.main){
@@ -19,6 +21,7 @@ class FlatSurface: Task {
                     && acceleration.y > 0 && acceleration.y < 0.04
                     && abs(acceleration.z + 1) < 0.01){
                     self.motionManager.stopAccelerometerUpdates()
+                    print("<<< Flat surface")
                     self.doneTask()
                 }
             }

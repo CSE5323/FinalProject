@@ -9,12 +9,20 @@
 import UIKit
 extension UIViewController {
     func newTask() {
-    
-        let randomIndex = Int(arc4random_uniform(UInt32(TaskManager.taskNames.count)))
-//        let randomIndex = 0
+        
+        var taskName: String
+        if(TaskManager.runMode == "random"){
+            let randomIndex = randomInt(min: 0, max: TaskManager.taskNames.count - 1)
+            taskName = TaskManager.taskNames[randomIndex]
+        }else{
+            print("Total tasks done: " + String(TaskManager.totalTasksDone))
+            taskName = TaskManager.taskNames[TaskManager.totalTasksDone]
+        }
+        
+        
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: TaskManager.taskNames[randomIndex])
+        let controller = storyboard.instantiateViewController(withIdentifier: taskName)
         self.present(controller, animated: true, completion: nil)
     }
 }
@@ -38,11 +46,25 @@ extension Double {
 }
 
 class MenuController: UIViewController {
+    @IBOutlet var randomTasksLabel: UILabel!
+    @IBOutlet var allXTasksLabel: UILabel!
+    @IBOutlet var moveTasksButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        updatedSettings()
     }
 
+    func updatedSettings(){
+        TaskManager.setup()
+        randomTasksLabel.text = String(TaskManager.randomModeMaxTasks) + " random tasks"
+        allXTasksLabel.text = "All " + String(TaskManager.taskNames.count) + " tasks"
+        if(TaskManager.testMode){
+            moveTasksButton.isHidden = true
+        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -52,13 +74,18 @@ class MenuController: UIViewController {
         nav.navigationBar.isTranslucent = false
         self.navigationController?.present(nav, animated: true, completion: nil)
     }
-    @IBAction func startCountTasks(_ sender: Any) {
-        TaskManager.runMode = "count"
+    @IBAction func startRandomTasks(_ sender: Any) {
+        TaskManager.runMode = "random"
         self.startRun()
     }
-    @IBAction func startTimeTasks(_ sender: Any) {
-//        TaskManager.runMode = "time"
-//        self.startRun()
+    @IBAction func startXTasks(_ sender: Any) {
+        TaskManager.runMode = "all"
+        self.startRun()
+    }
+    @IBAction func moveButtonClicked(_ sender: UIButton) {
+        TaskManager.canDoMoveTasks = !TaskManager.canDoMoveTasks
+        sender.setTitle(TaskManager.canDoMoveTasks ? "Move Tasks Enabled" : "Move Tasks Disabled", for: UIControlState.normal)
+        updatedSettings()
     }
     func startRun(){
         TaskManager.totalTasksDone = 0

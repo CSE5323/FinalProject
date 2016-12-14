@@ -13,6 +13,8 @@ class Shake: Task {
     var isActive = false
     
     override func setupTask() {
+        print("Shake >>>")
+        
         self.becomeFirstResponder()
         isActive = true;
     }
@@ -24,6 +26,7 @@ class Shake: Task {
         if motion == .motionShake  && isActive{
             isActive = false
             self.resignFirstResponder()
+            print("<<< Shake")
             doneTask()
         }
     }

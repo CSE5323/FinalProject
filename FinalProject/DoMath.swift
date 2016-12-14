@@ -20,6 +20,8 @@ class DoMath: Task, UITextFieldDelegate {
     fileprivate var answer: Int = 0
     
     override func setupTask() {
+        print("DoMath >>>")
+        
         textField.delegate = self
         let (one, sym, two) = generateProblem()
         op1.text = String(one)
@@ -48,8 +50,8 @@ class DoMath: Task, UITextFieldDelegate {
         textField.resignFirstResponder()
         
         if textField.text == String(answer) {
+            print("<<< DoMath")
             doneTask()
-//            print("Should've left")
         }
         
         return true

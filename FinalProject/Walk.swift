@@ -18,6 +18,8 @@ class Walk: Task {
     let motion = CMMotionManager()
     
     override func setupTask() {
+        print("Walk >>>")
+        
         self.startActivityMonitoring()
     }
     
@@ -40,6 +42,7 @@ class Walk: Task {
             switch true{
                 case unwrappedActivity.walking:
                     self.activityManager.stopActivityUpdates()
+                    print("<<< Walk")
                     doneTask()
                 default:
                     break

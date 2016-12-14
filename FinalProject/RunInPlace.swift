@@ -18,6 +18,8 @@ class RunInPlace: Task {
     let motion = CMMotionManager()
     
     override func setupTask() {
+        print("RunInPlace >>>")
+        
         self.startActivityMonitoring()
     }
     
@@ -40,6 +42,7 @@ class RunInPlace: Task {
             switch true{
             case unwrappedActivity.running:
                 self.activityManager.stopActivityUpdates()
+                print("<<< RunInPlace")
                 doneTask()
             default:
                 break

@@ -3,6 +3,7 @@ import UIKit
 
 class Switch: Task {
     var randomStates = [Int]()
+    var randomStateCount = 5
     
     @IBOutlet var switch1: UISwitch!
     @IBOutlet var switch2: UISwitch!
@@ -14,14 +15,20 @@ class Switch: Task {
         return arc4random_uniform(2) == 0
     }
     override func setupTask() {
+        print("Switch  >>>")
         
-        randomStates = [0,0,0,0,0]
-        for _ in 0  ..< 100 {
-            let randomIndex = Int(arc4random_uniform(4)) + 1
-            randomStates[randomIndex] = randomStates[randomIndex] == 0 ? 1 : 0
-        }
+        switch1.isOn = false
+        switch2.isOn = false
+        switch3.isOn = false
+        switch4.isOn = false
+        switch5.isOn = false
+        
         var allFalse = true
-        for i in 0  ..< 5 {
+        randomStates = []
+        for _ in 0  ..< randomStateCount {
+            randomStates.append(randomInt(min: 0, max: 1))
+        }
+        for i in 0  ..< randomStateCount {
             if(randomStates[i] == 1){
                 allFalse = false
                 break
@@ -47,7 +54,10 @@ class Switch: Task {
                 break
             }
         }
-        label.text = stateStrings.joined(separator: ",")
+        DispatchQueue.main.async {
+            self.label.text = stateStrings.joined(separator: "    ")
+        }
+        print("updateLabel: " + label.text!)
     }
     @IBAction func switch1Changed(_ sender: Any) {
         checkTask()
@@ -70,6 +80,7 @@ class Switch: Task {
             switch3.isOn == Bool(randomStates[2] as NSNumber) &&
             switch4.isOn == Bool(randomStates[3] as NSNumber) &&
             switch5.isOn == Bool(randomStates[4] as NSNumber)){
+            print("<<< Switch")
             doneTask()
         }
     }
