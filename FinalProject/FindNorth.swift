@@ -26,7 +26,7 @@ class FindNorth: Task, CLLocationManagerDelegate {
     
     func locationManager(_: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
         print("Heading: " + String(newHeading.trueHeading))
-        if newHeading.trueHeading < 5 || newHeading.trueHeading > 355 {
+        if newHeading.trueHeading < 15 || newHeading.trueHeading > 345 {
             self.location.stopUpdatingHeading()
             print("<<< FindNorth")
             doneTask()

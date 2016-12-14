@@ -17,19 +17,22 @@ class HandOverCamera: Task   {
     
     //MARK: ViewController Hierarchy
     override func setupTask() {
-        print("HandOverCamera >>>")
-        
-        isDone = false
-        self.view.backgroundColor = nil
-        
-        self.videoManager = VideoAnalgesic.sharedInstance
-        self.videoManager.setCameraPosition(AVCaptureDevicePosition.back)
-        
-        self.videoManager.setProcessingBlock(self.processImage)
-        
-        if !videoManager.isRunning{
-            videoManager.start()
+        DispatchQueue.main.async {
+            print("HandOverCamera >>>")
+            
+            self.isDone = false
+            self.view.backgroundColor = nil
+            
+            self.videoManager = VideoAnalgesic.sharedInstance
+            self.videoManager.setCameraPosition(AVCaptureDevicePosition.back)
+            
+            self.videoManager.setProcessingBlock(self.processImage)
+            
+            if !self.videoManager.isRunning{
+                self.videoManager.start()
+            }
         }
+        
         
     }
     
@@ -50,7 +53,9 @@ class HandOverCamera: Task   {
         
         if(hasPalm && !isDone){
             isDone = true
-            DispatchQueue.global(qos: .background).async {
+            
+            DispatchQueue.main.async {
+                print("videoManager shutdown")
                 self.videoManager.shutdown()
                 self.videoManager = nil
             }

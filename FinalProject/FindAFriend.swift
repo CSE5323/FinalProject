@@ -19,30 +19,33 @@ class FindAFriend: Task {
     
     //MARK: ViewController Hierarchy
     override func setupTask() {
-        print("FindAFriend >>>")
-        
-        self.view.backgroundColor = nil
-        cameraView.backgroundColor = nil
-        
-        isDone = false
-        
-        self.videoManager = VideoAnalgesic.sharedInstance
-        self.videoManager.setCameraPosition(AVCaptureDevicePosition.back)
-        
-        // create dictionary for face detection
-        // HINT: you need to manipulate these proerties for better face detection efficiency
-        let optsDetector = [CIDetectorAccuracy:CIDetectorAccuracyHigh]
-        
-        // setup a face detector in swift
-        self.detector = CIDetector(ofType: CIDetectorTypeFace,
-                                   context: self.videoManager.getCIContext(), // perform on the GPU is possible
-            options: optsDetector)
-        
-        self.videoManager.setProcessingBlock(self.processImage)
-        
-        if !videoManager.isRunning{
-            videoManager.start()
+        DispatchQueue.main.async {
+            print("FindAFriend >>>")
+            
+            self.view.backgroundColor = nil
+            self.cameraView.backgroundColor = nil
+            
+            self.isDone = false
+            
+            self.videoManager = VideoAnalgesic.sharedInstance
+            self.videoManager.setCameraPosition(AVCaptureDevicePosition.back)
+            
+            // create dictionary for face detection
+            // HINT: you need to manipulate these proerties for better face detection efficiency
+            let optsDetector = [CIDetectorAccuracy:CIDetectorAccuracyHigh]
+            
+            // setup a face detector in swift
+            self.detector = CIDetector(ofType: CIDetectorTypeFace,
+                                       context: self.videoManager.getCIContext(), // perform on the GPU is possible
+                options: optsDetector)
+            
+            self.videoManager.setProcessingBlock(self.processImage)
+            
+            if !self.videoManager.isRunning{
+                self.videoManager.start()
+            }
         }
+        
         
     }
     
@@ -66,7 +69,8 @@ class FindAFriend: Task {
         //otherwise apply the filters to the faces
         if(self.videoManager.isRunning && !isDone){
             isDone = true
-            DispatchQueue.global(qos: .background).async {
+            DispatchQueue.main.async {
+                print("videoManager shutdown")
                 self.videoManager.shutdown()
                 self.videoManager = nil
             }

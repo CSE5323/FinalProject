@@ -61,6 +61,7 @@ class MenuController: UIViewController {
         TaskManager.setup()
         randomTasksLabel.text = String(TaskManager.randomModeMaxTasks) + " random tasks"
         allXTasksLabel.text = "All " + String(TaskManager.taskNames.count) + " tasks"
+        moveTasksButton.setTitle(TaskManager.canDoMoveTasks ? "Move Tasks Enabled" : "Move Tasks Disabled", for: UIControlState.normal)
         if(TaskManager.testMode){
             moveTasksButton.isHidden = true
         }
@@ -79,7 +80,6 @@ class MenuController: UIViewController {
     }
     @IBAction func moveButtonClicked(_ sender: UIButton) {
         TaskManager.canDoMoveTasks = !TaskManager.canDoMoveTasks
-        sender.setTitle(TaskManager.canDoMoveTasks ? "Move Tasks Enabled" : "Move Tasks Disabled", for: UIControlState.normal)
         updatedSettings()
     }
     func startRun(){

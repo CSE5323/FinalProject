@@ -1,8 +1,8 @@
 # SpeedR
 
 ## TODO
-* change randomize tasks back
 * production mode
+* redo randomize
 
 ##Tasks
 
