@@ -56,7 +56,7 @@ class Swipe: Task {
                     break
             }
         }
-        swipeLabel.text = "Swipe " + directionStrings.joined(separator: ",")
+        swipeLabel.text = directionStrings.joined(separator: ", ")
     }
     func respondToSwipeGesture(gesture: UIGestureRecognizer) {
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
