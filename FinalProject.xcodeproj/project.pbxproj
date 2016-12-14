@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C21311041DFF09B70093C827 /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21311031DFF09B70093C827 /* Swipe.swift */; };
+		C219C69C1E01301B00B778A3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C219C69B1E01301B00B778A3 /* README.md */; };
 		C22C568E1DFE5C7B00F707C3 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */; };
 		C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */; };
 		C23198591DFF320C00EC3EEE /* nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = C23198581DFF320C00EC3EEE /* nose.xml */; };
@@ -63,6 +64,7 @@
 		45223E988CB8083B483952D5 /* Pods-FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.release.xcconfig"; sourceTree = "<group>"; };
 		B2A3A1E0AD4170ED8FC770F5 /* Pods-FinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C21311031DFF09B70093C827 /* Swipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
+		C219C69B1E01301B00B778A3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C22C568D1DFE5C7B00F707C3 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		C22C568F1DFE60FC00F707C3 /* SpeedRunComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRunComplete.swift; sourceTree = "<group>"; };
 		C23198581DFF320C00EC3EEE /* nose.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = nose.xml; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		D30D5CB81DE51AFD00D2D13F = {
 			isa = PBXGroup;
 			children = (
+				C219C69B1E01301B00B778A3 /* README.md */,
 				C286FB741DFF727600DF1ACD /* Podfile */,
 				C278074E1DFF26E4002E58DE /* ImageDSPUtils */,
 				D35DCD3A1DFC9CCD00CE4982 /* AudioDSPUtils */,
@@ -324,7 +327,7 @@
 				TargetAttributes = {
 					D30D5CC01DE51AFD00D2D13F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = F69WJ27LN4;
+						DevelopmentTeam = 6B83F7C8RZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -441,6 +444,7 @@
 				C22C56901DFE60FC00F707C3 /* SpeedRunComplete.swift in Sources */,
 				C286FB831DFFC4D700DF1ACD /* TurnRight.swift in Sources */,
 				D35DCD591DFC9CCD00CE4982 /* README.md in Sources */,
+				C219C69C1E01301B00B778A3 /* README.md in Sources */,
 				D3F178DE1E01041200F8A724 /* FindSouth.swift in Sources */,
 				D30D5CC71DE51AFD00D2D13F /* MenuController.swift in Sources */,
 				FAAB41C01DFFE33800C7FDBF /* TiltBackward.swift in Sources */,
@@ -579,7 +583,7 @@
 			baseConfigurationReference = B2A3A1E0AD4170ED8FC770F5 /* Pods-FinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F69WJ27LN4;
+				DEVELOPMENT_TEAM = 6B83F7C8RZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -600,7 +604,7 @@
 			baseConfigurationReference = 45223E988CB8083B483952D5 /* Pods-FinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F69WJ27LN4;
+				DEVELOPMENT_TEAM = 6B83F7C8RZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

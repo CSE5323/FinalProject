@@ -22,3 +22,11 @@
 * PinchScreen
 * FindAFriend
 * FindNorth
+* FindEast
+* FindSouth
+* FindWest
+
+
+* TiltForward
+* TiltBackward
+* RunInPlace
