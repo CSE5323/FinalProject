@@ -1,8 +1,6 @@
 # SpeedR
 
 ## TODO
-* production mode
-* redo randomize
 
 ##Tasks
 
