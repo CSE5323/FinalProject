@@ -1,5 +1,5 @@
 //
-//  FindSouth.swift
+//  FindWest.swift
 //  FinalProject
 //
 //  Created by Jenn Le on 12/13/16.
@@ -9,13 +9,13 @@
 import Foundation
 import CoreLocation
 
-class FindSouth: Task, CLLocationManagerDelegate {
+class FindWest: Task, CLLocationManagerDelegate {
     
     var location:CLLocationManager!
     var isDone = false
     
     override func setupTask() {
-        print("FindSouth >>>")
+        print("FindWest >>>")
         
         isDone = false
         DispatchQueue.main.async {
@@ -27,9 +27,9 @@ class FindSouth: Task, CLLocationManagerDelegate {
     }
     
     func locationManager(_: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        if newHeading.trueHeading > 175 || newHeading.trueHeading < 185 {
+        if newHeading.trueHeading < 275 || newHeading.trueHeading > 265 {
             self.location.stopUpdatingHeading()
-            print("<<< FindEast")
+            print("<<< FindWest")
             doneTask()
         }
     }
