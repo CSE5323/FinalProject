@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -68,17 +68,6 @@
                                     <action selector="startRandomTasks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="man-vd-kXB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRe-wy-UEy">
-                                <rect key="frame" x="20" y="617" width="176" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="176" id="qcm-Ci-FKp"/>
-                                    <constraint firstAttribute="height" constant="30" id="wYj-gS-MwX"/>
-                                </constraints>
-                                <state key="normal" title="Move Tasks Enabled"/>
-                                <connections>
-                                    <action selector="moveButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edU-LS-I7e"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8i-Ra-hhB">
                                 <rect key="frame" x="136" y="480" width="102" height="58"/>
                                 <constraints>
@@ -93,14 +82,27 @@
                                     <action selector="startXTasks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzq-cJ-n9B"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRe-wy-UEy">
+                                <rect key="frame" x="215" y="629" width="144" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="qcm-Ci-FKp"/>
+                                    <constraint firstAttribute="height" constant="30" id="wYj-gS-MwX"/>
+                                </constraints>
+                                <state key="normal" title="Move Tasks Enabled">
+                                    <color key="titleColor" red="0.81960784310000001" green="0.94901960780000005" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edU-LS-I7e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="rw2-LG-ldP" secondAttribute="trailing" constant="-16" id="95s-tc-GJL"/>
                             <constraint firstItem="IrW-rx-Xdz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="262" id="CyS-vB-9Jv"/>
                             <constraint firstItem="lr0-Cx-7uQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GgW-f2-kVA"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vRe-wy-UEy" secondAttribute="bottom" constant="20" id="M2n-7w-w6R"/>
-                            <constraint firstItem="vRe-wy-UEy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="TRc-Tl-Uqs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vRe-wy-UEy" secondAttribute="bottom" constant="8" id="M2n-7w-w6R"/>
+                            <constraint firstItem="vRe-wy-UEy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="199" id="TRc-Tl-Uqs"/>
                             <constraint firstItem="lr0-Cx-7uQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="425" id="VIs-AB-Yy2"/>
                             <constraint firstItem="QAx-xa-iji" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="143" id="Z3e-DH-lD9"/>
                             <constraint firstItem="AEM-a1-FWo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="326" id="Zdk-G0-pfE"/>

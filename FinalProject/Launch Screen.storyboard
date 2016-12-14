@@ -76,12 +76,23 @@
                                     <color key="titleColor" red="0.81960784310000001" green="0.94901960780000005" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2YO-3D-Hgp">
+                                <rect key="frame" x="215" y="629" width="144" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="Brv-hb-Rtm"/>
+                                    <constraint firstAttribute="height" constant="30" id="pYI-TP-8CP"/>
+                                </constraints>
+                                <state key="normal" title="Move Tasks Enabled">
+                                    <color key="titleColor" red="0.81960784310000001" green="0.94901960780000005" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="EdF-Je-Bja" firstAttribute="centerX" secondItem="AZ5-Ny-Y61" secondAttribute="centerX" id="09K-Ee-WRX"/>
                             <constraint firstItem="ZaC-HA-W2o" firstAttribute="top" secondItem="ATW-bI-QIo" secondAttribute="bottom" constant="22" id="0Wi-Q6-lsP"/>
                             <constraint firstItem="ZaC-HA-W2o" firstAttribute="top" secondItem="pfD-XI-UhD" secondAttribute="bottom" constant="56" id="5Om-Je-ypq"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="2YO-3D-Hgp" secondAttribute="bottom" constant="8" symbolic="YES" id="5SB-kx-S34"/>
                             <constraint firstItem="ATW-bI-QIo" firstAttribute="centerX" secondItem="AZ5-Ny-Y61" secondAttribute="centerX" id="7NW-3o-jdy"/>
                             <constraint firstItem="684-5z-9rP" firstAttribute="centerY" secondItem="AZ5-Ny-Y61" secondAttribute="centerY" constant="14" id="9tU-TD-p32"/>
                             <constraint firstItem="q2d-tz-PvY" firstAttribute="centerX" secondItem="AZ5-Ny-Y61" secondAttribute="centerX" id="C16-Cp-8GX"/>
@@ -95,6 +106,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="684-5z-9rP" secondAttribute="trailing" constant="-16" id="srF-2B-1Pd"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="EdF-Je-Bja" secondAttribute="bottom" constant="129" id="tIk-rw-LxC"/>
                             <constraint firstItem="684-5z-9rP" firstAttribute="leading" secondItem="AZ5-Ny-Y61" secondAttribute="leadingMargin" constant="-16" id="uxq-7r-P8r"/>
+                            <constraint firstItem="2YO-3D-Hgp" firstAttribute="trailing" secondItem="AZ5-Ny-Y61" secondAttribute="trailingMargin" id="whq-XI-dWg"/>
                         </constraints>
                     </view>
                 </viewController>
